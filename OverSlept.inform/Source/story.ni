@@ -35,9 +35,11 @@ Hey Bro,
 				Ann
 P.S If you do pass out and are reading this message for the first time, (to your knowledge), then go to the file cabinet and open it using, I Suck, as the password"
 
+The flashlight is a device
+
 The file cabinet is scenery in the Study. It is a closed openable container. It is locked and lockable. The description is " A high tech file cabinet that is in the shape of a businessman. Your sister buys the weirdest things. A small screen asks for a password."
 
-The I Suck is a thing in the study. The I Suck unlocks the file cabinet. The description of the password is " A small password for a small man."
+The I Suck is a thing in the Study. The I Suck unlocks the cabinet. The description of the I Suck is " A small password for a small man."
 
 The key is in the file cabinet. The key unlocks the velvet door. The description is " An iron key with a small velvet strip taped to the top."
 

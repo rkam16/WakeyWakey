@@ -10521,7 +10521,7 @@ Constant IK9_First = nothing;
 Constant IK10_First = nothing;
 Constant IK11_First = nothing;
 Constant IK12_First = nothing;
-Constant IK13_First = nothing;
+Constant IK13_First = I138_flashlight;
 Constant IK14_First = nothing;
 Constant IK15_First = nothing;
 Constant No_Directions = 12;
@@ -11109,7 +11109,7 @@ Object -> I131_bed ""
     with IK2_Count 6
     with IK2_Link I132_pills
     with IK5_Count 0
-    with IK5_Link I138_file_cabinet
+    with IK5_Link I139_file_cabinet
     with KD_Count 5
     with name 'bed' 'containers//p' 
     with action_bitmap 0 0 0 0 0 
@@ -11253,7 +11253,7 @@ Object -> I137_note ""
     with vector 0
     has mark_as_thing
     with IK2_Count 11
-    with IK2_Link I138_file_cabinet
+    with IK2_Link I139_file_cabinet
     with KD_Count 2
     with name 'note' 'things//p' 
     with action_bitmap 0 0 0 0 0 
@@ -11263,11 +11263,11 @@ Object -> I137_note ""
     with article BC_223
 ;
 
-Object -> I138_file_cabinet ""
+Object -> I139_file_cabinet ""
     class K5_container
     with short_name BC_224
     with description BC_225
-    with with_key I139_i_suck
+    with with_key I140_i_suck
     has static
     has scenery
     has ~open
@@ -11276,7 +11276,7 @@ Object -> I138_file_cabinet ""
     has locked
     with vector 0
     has mark_as_thing
-    with IK2_Count 12
+    with IK2_Count 13
     with IK2_Link I141_key
     with IK5_Count 1
     with IK5_Link nothing
@@ -11296,7 +11296,7 @@ Object -> -> I141_key ""
     with vector 0
     has mark_as_thing
     with IK2_Count 15
-    with IK2_Link I139_i_suck
+    with IK2_Link I140_i_suck
     with KD_Count 2
     with name 'key' 'things//p' 
     with action_bitmap 0 0 0 0 0 
@@ -11306,17 +11306,17 @@ Object -> -> I141_key ""
     with article BC_235
 ;
 
-Object -> I139_i_suck ""
+Object -> I140_i_suck ""
     class K2_thing
     with short_name BC_236
+    with description BC_237
     with vector 0
     has mark_as_thing
-    with IK2_Count 13
+    with IK2_Count 14
     with IK2_Link I142_refrigerator
     with KD_Count 2
     with name 'i//' 'suck' 'things//p' 
     with action_bitmap 0 0 0 0 0 
-    with description BC_237
     with initial BC_238
     with list_together BC_239
     with plural BC_240
@@ -11386,7 +11386,7 @@ Object -> I144_sink ""
     with vector 0
     has mark_as_thing
     with IK2_Count 18
-    with IK2_Link I140_password
+    with IK2_Link I138_flashlight
     with KD_Count 2
     with name 'sink' 'things//p' 
     with action_bitmap 0 0 0 0 0 
@@ -11396,17 +11396,19 @@ Object -> I144_sink ""
     with article BC_264
 ;
 
-Object I140_password ""
-    class K2_thing
+Object I138_flashlight ""
+    class K13_device
     with short_name BC_265
-    with description BC_266
     with vector 0
     has mark_as_thing
-    with IK2_Count 14
+    with IK2_Count 12
     with IK2_Link I146_easy_bake_oven
-    with KD_Count 2
-    with name 'password' 'things//p' 
+    with IK13_Count 0
+    with IK13_Link nothing
+    with KD_Count 13
+    with name 'flashlight' 'devices//p' 
     with action_bitmap 0 0 0 0 0 
+    with description BC_266
     with initial BC_267
     with list_together BC_268
     with plural BC_269
@@ -48083,7 +48085,7 @@ Verb 'notify'
 Constant TX_PS_51 = " A dark work room, its only lights eminate from the desktop compter and the small graphing desk. A large full length file cabinet rest in the corner. To the west is the Bedroom";
 Constant TX_PS_61 = " A high tech file cabinet that is in the shape of a businessman. Your sister buys the weirdest things. A small screen asks for a password.";
 Constant TX_PS_53 = " A new Mac desktop still turned on with muiltiple applications opened. On the Web Browser is an open email account belonging to your sister. One email appears to be starred.";
-Constant TX_PS_74 = " A small password for a small man.";
+Constant TX_PS_65 = " A small password for a small man.";
 Constant TX_PS_45 = " After closer examination, you wonder why you even bothered to look at this bed. it's just a Bed. However, there seems to be small pills on its cover.";
 Constant TX_PS_90 = " Air gushes through the open window. It seems as though Sally has escaped and is living in the wild. Outside you can hear your sisters car pill into the driveway... You'll be with God soon.";
 Array TX_L_90 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_90;
@@ -48092,16 +48094,16 @@ Constant TX_PS_63 = " An iron key with a small velvet strip taped to the top.";
 Constant TX_PS_57 = " As you look at the desk you at first only notice the massive clutter of paper. Right as you're turning away you notice a bright green note on the desk.";
 Constant TX_PS_78 = " As you open up the easy bake you discover a bowl of spinach dressed with mayonnaise. You should probably not eat this.";
 Constant TX_PS_39 = " Like a light house piercing the viel of your memory this glass pane has awoken you from your drug induced slumber.";
-Constant TX_PS_70 = " The drawer's contents consist of utensils and oven mitts. There is a slot in the drawer that belonged to a long butcher knife however it's empty... Either you're dead, or she is.";
+Constant TX_PS_71 = " The drawer's contents consist of utensils and oven mitts. There is a slot in the drawer that belonged to a long butcher knife however it's empty... Either you're dead, or she is.";
 Constant TX_PS_55 = " The email reads about your sister's love life. A saucy email exchanged between her and her husband, apparently before they got married. You realize that you are 40 years old, lonely and working as a professional pooper scooper.";
 Constant TX_PS_59 = " The note appears to be from your sister addressed to you. It reads, Hey Bro, I need you to watch my daughter Sally for a couple days while me and Jim are on our honeymoon. I know she'll probably drive you crazy but bear with it. Don't take sleep pills just to escape the stress of dealing with her. She's quite a lively one so if you leave her alone she may mess with you and our precious house. Thanks for the Solid and see you soon. -From, Ann P.S If you do pass out and are reading this message for the first time, (to your knowledge), then go to the file cabinet and open it using, I Suck, as the password";
-Constant TX_PS_72 = " Water is gushing out of the sink onto the floor. The floor is soaking wet and it would probably be best to clean this up before sis got home.";
-Constant TX_PS_66 = " What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally's Room.  ";
+Constant TX_PS_73 = " Water is gushing out of the sink onto the floor. The floor is soaking wet and it would probably be best to clean this up before sis got home.";
+Constant TX_PS_67 = " What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally's Room.  ";
 Constant TX_PS_43 = " When you look into the mirror you see your reflection. You look awful, your hair is tangled and mangled. There are deep, dark bags that sag from under your eyes. Your dilapidated state reminds you that last night was terrible. The reason still escapes you but you remember something about the bed...";
 Constant TX_PS_80 = " Your sister pulled out all of the stops with this luxury waterbed. Too bad Sally stuck the butcher knife in it.";
 Constant TX_PS_83 = ">";
 Constant TX_PS_41 = "A gigantic pile of your dirty clothes that have been fermenting for a while. Use these to stoke the flames of Hell.";
-Constant TX_PS_68 = "A glowing white monolith strung open with spoiled food. Sally must have went to town on the produce inside.";
+Constant TX_PS_69 = "A glowing white monolith strung open with spoiled food. Sally must have went to town on the produce inside.";
 Constant TX_PS_49 = "A large Koa door with a wiki tiki on its handle.";
 Constant TX_PS_35 = "A nice comfy bedroom with a nice skylight sitting directly over the bed. A pile of dirty clothes lay clumped in a pile on the floor. A lone dresser with a mirror resides across from the bed. To the east is the Study. To the south is the kitchen.";
 Constant TX_PS_3 = "An Interactive Fiction";
@@ -48113,7 +48115,7 @@ Constant TX_PS_56 = "Desk";
 Constant TX_PS_54 = "Email";
 Constant TX_PS_84 = "Fiction";
 Constant TX_PS_64 = "I Suck";
-Constant TX_PS_65 = "Kitchen room";
+Constant TX_PS_66 = "Kitchen room";
 Constant TX_PS_58 = "Note";
 Constant TX_PS_88 = "QUIT";
 Constant TX_PS_85 = "RESTART";
@@ -48139,24 +48141,24 @@ Constant TX_PS_36 = "dresser";
 Constant TX_PS_25 = "east";
 Constant TX_PS_77 = "easy bake oven";
 Constant TX_PS_60 = "file cabinet";
+Constant TX_PS_74 = "flashlight";
 Constant TX_PS_29 = "inside";
 Constant TX_PS_62 = "key";
-Constant TX_PS_69 = "kitchenware drawer";
+Constant TX_PS_70 = "kitchenware drawer";
 Constant TX_PS_7 = "men";
 Constant TX_PS_42 = "mirror";
 Constant TX_PS_18 = "north";
 Constant TX_PS_20 = "northeast";
 Constant TX_PS_21 = "northwest";
 Constant TX_PS_30 = "outside";
-Constant TX_PS_73 = "password";
 Constant TX_PS_6 = "people";
 Constant TX_PS_46 = "pills";
 Constant TX_PS_79 = "pink bed";
 Constant TX_PS_13 = "player's holdalls";
-Constant TX_PS_67 = "refrigerator";
+Constant TX_PS_68 = "refrigerator";
 Constant TX_PS_16 = "regions";
 Constant TX_PS_87 = "see some suggestions for AMUSING things to do";
-Constant TX_PS_71 = "sink";
+Constant TX_PS_72 = "sink";
 Constant TX_PS_38 = "skylight";
 Constant TX_PS_22 = "south";
 Constant TX_PS_23 = "southeast";
@@ -55549,39 +55551,39 @@ Array BC_233 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_234 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_235 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_236 --> PACKED_TEXT_STORAGE TX_PS_64;
-Array BC_237 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_237 --> PACKED_TEXT_STORAGE TX_PS_65;
 Array BC_238 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_239 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_240 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_241 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_242 --> PACKED_TEXT_STORAGE TX_PS_65;
-Array BC_243 --> PACKED_TEXT_STORAGE TX_PS_66;
+Array BC_242 --> PACKED_TEXT_STORAGE TX_PS_66;
+Array BC_243 --> PACKED_TEXT_STORAGE TX_PS_67;
 Array BC_244 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_245 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_246 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_247 --> PACKED_TEXT_STORAGE TX_PS_67;
-Array BC_248 --> PACKED_TEXT_STORAGE TX_PS_68;
+Array BC_247 --> PACKED_TEXT_STORAGE TX_PS_68;
+Array BC_248 --> PACKED_TEXT_STORAGE TX_PS_69;
 Array BC_249 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_250 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_251 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_252 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_253 --> PACKED_TEXT_STORAGE TX_PS_69;
-Array BC_254 --> PACKED_TEXT_STORAGE TX_PS_70;
+Array BC_253 --> PACKED_TEXT_STORAGE TX_PS_70;
+Array BC_254 --> PACKED_TEXT_STORAGE TX_PS_71;
 Array BC_255 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_256 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_257 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_258 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_259 --> PACKED_TEXT_STORAGE TX_PS_71;
-Array BC_260 --> PACKED_TEXT_STORAGE TX_PS_72;
+Array BC_259 --> PACKED_TEXT_STORAGE TX_PS_72;
+Array BC_260 --> PACKED_TEXT_STORAGE TX_PS_73;
 Array BC_261 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_262 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_263 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_264 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_265 --> PACKED_TEXT_STORAGE TX_PS_73;
-Array BC_266 --> PACKED_TEXT_STORAGE TX_PS_74;
+Array BC_265 --> PACKED_TEXT_STORAGE TX_PS_74;
+Array BC_266 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_267 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_268 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_269 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_269 --> PACKED_TEXT_STORAGE TX_PS_15;
 Array BC_270 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_271 --> PACKED_TEXT_STORAGE TX_PS_75;
 Array BC_272 --> PACKED_TEXT_STORAGE TX_PS_76;
