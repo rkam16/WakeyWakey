@@ -10,7 +10,7 @@ The dresser is scenery in the Bedroom. The description is "This Old Dresser  has
 
 The skylight is scenery in the Bedroom. The description is " Like a light house piercing the viel of your memory this glass pane has awoken you from your drug induced slumber."
 
-The dirty clothes is scenery in the Bedroom. The dirty clothes are portable. The description of the dirty clothes is "A gigantic pile of your dirty clothes that have been fermenting for a while. Use these to stoke the flames of Hell."
+The dirty clothes is a thing in the Bedroom. It is undescribed. The dirty clothes are portable. The description of the dirty clothes is "A gigantic pile of your dirty clothes that have been fermenting for a while. Last night they got even worse when you spilt coke by them and they absorbed it ."
 
 The mirror is Scenery in the Bedroom. The description is " When you look into the mirror you see your reflection. You look awful, your hair is tangled and mangled. There are deep, dark bags that sag from under your eyes. Your dilapidated state reminds you that last night was terrible. The reason still escapes you but you remember something about the bed..."
 
@@ -18,7 +18,10 @@ The Study is a room. It is east of the Bedroom. " A dark work room, its only lig
 
 The Bed is scenery in the Bedroom. " After closer examination, you wonder why you even bothered to look at this bed. it's just a Bed. However, there seems to be small pills on its cover."
 
-The pills is in the Bed. The description of the pills is "These seems to be over-the-counter deep sleep pills. A couple of these could probably knock out an elephant, its amazing you're awake."
+The pills is in the Bed. The description of the pills is "These seems to be over-the-counter deep sleep pills. A couple of these could probably knock out an elephant, its amazing you're awake. Don't even try to take these again."
+
+Instead of eating the pills:
+	say "Right as your about to take these you realize you probably have more important issues to attend to and that if you take these again you'll probably never wake up again. Instead you crush the pills."
 
 The Velvet Door is north of the Kitchen room and south of the Bedroom. The Velvet Door is a Door. The velvet door is locked and lockable.  The description is "A large Koa door with a wiki tiki on its handle."
 
@@ -33,13 +36,11 @@ Hey Bro,
        I need you to watch my daughter Sally for a couple days while me and Jim are on our honeymoon. I know she'll probably drive you crazy but bear with it. Don't take sleep pills just to escape the stress of dealing with her. She's quite a lively one so if you leave her alone she may mess with you and our precious house. Thanks for the Solid and see you soon.
 			-From,
 				Ann
-P.S If you do pass out and are reading this message for the first time, (to your knowledge), then go to the file cabinet and open it using, I Suck, as the password"
-
-The flashlight is a device
+P.S If you do pass out and are reading this message for the first time, (to your knowledge), open the file cabinet with, I Suck, as the password"
 
 The file cabinet is scenery in the Study. It is a closed openable container. It is locked and lockable. The description is " A high tech file cabinet that is in the shape of a businessman. Your sister buys the weirdest things. A small screen asks for a password."
 
-The I Suck is a thing in the Study. The I Suck unlocks the cabinet. The description of the I Suck is " A small password for a small man."
+The I Suck is a thing in the Study. It is undescribed. The I Suck unlocks the cabinet. The description of the I Suck is " A small password for a small man."
 
 The key is in the file cabinet. The key unlocks the velvet door. The description is " An iron key with a small velvet strip taped to the top."
 
@@ -48,13 +49,35 @@ Understand "open file cabinet with password" as opening it with. Opening it with
 To unlock the file cabinet use open the file cabinet with password:
 		 say "The file cabinet accepted your voice password. Its mouth (the top drawer) opens.";
 
-The Kitchen is a Room. It is south of the Velvet Door. " What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally's Room.  "
+The Kitchen is a Room. It is south of the Velvet Door. " What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. A puddle of water covers the floor. What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally's Room. "
 
 The refrigerator is scenery in the kitchen. The description of the refrigerator is "A glowing white monolith strung open with spoiled food. Sally must have went to town on the produce inside."
 
-The kitchenware drawer is scenery in the kitchen. The description of the kitchenware drawer is " The drawer's contents consist of utensils and oven mitts. There is a slot in the drawer that belonged to a long butcher knife however it's empty... Either you're dead, or she is."
+The kitchenware drawer is scenery in the kitchen. The description of the kitchenware drawer is " The drawer's contents consist of utensils and oven mitts. There is a slot in the drawer that belonged to a long butcher knife however it's empty... Either she's dead or you are."
 
 The sink is scenery in the kitchen. The description is " Water is gushing out of the sink onto the floor. The floor is soaking wet and it would probably be best to clean this up before sis got home."
+
+The puddle is a thing in the Kitchen. It is not portable. It is undescribed. The description is "This large puzzle of water probably formed from the water pouring out from the sink. If you don't clean this up then when your sister comes home she could slip and fall."
+
+Soaked clothes is a thing. The description of soaked clothes is " Your once putrid clothing is now soaked with water."
+
+Combining it with is an action applying to two things.
+Understand "combine [puddle] with [dirty clothes]" as combining it with.
+
+Instead of combining puddle with dirty clothes:
+say "By adding the dirty clothes to the puddle you soaked up the puddle leaving you with some soaked clothes.";
+remove dirty clothes from play;
+remove puddle from play;
+move soaked clothes to player
+
+[Need help making this rule work. I want the player to combine the two objects before entering Sally's room.]
+Instead of entering Sally's Room:
+	If player does not have soaked clothes, 
+	move player to kitchen;
+		say " You cannot leave without cleaning this up."
+		
+If player does not have soaked clothes,
+Sally's Room is cannot be entered.
 
 The Sally's Room is a Room. Sally's Room is south of the Kitchen. "The Room is reminiscent of your sister's room back when you were kids. There is a large glass window framed above a small pink bed. The smell of rotten flesh emanates from the easy bake oven. The Kitchen is North."
 
