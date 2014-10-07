@@ -49,20 +49,28 @@ Understand "open file cabinet with password" as opening it with. Opening it with
 To unlock the file cabinet use open the file cabinet with password:
 		 say "The file cabinet accepted your voice password. Its mouth (the top drawer) opens.";
 
-The Kitchen is a Room. It is south of the Velvet Door. " What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. A puddle of water covers the floor. What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally's Room. "
+The Kitchen is a Room. It is south of the Velvet Door. " What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. A puddle . What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally's Room. "
 
 The refrigerator is scenery in the kitchen. The description of the refrigerator is "A glowing white monolith strung open with spoiled food. Sally must have went to town on the produce inside."
 
 The kitchenware drawer is scenery in the kitchen. The description of the kitchenware drawer is " The drawer's contents consist of utensils and oven mitts. There is a slot in the drawer that belonged to a long butcher knife however it's empty... Either she's dead or you are."
 
-The sink is scenery in the kitchen. The description is " Water is gushing out of the sink onto the floor. The floor is soaking wet and it would probably be best to clean this up before sis got home."
+The sink is scenery in the kitchen. The description is " It seems as though water has gushed out of the sink onto the floor. The water has become still and gathered into a puddle"
 
-The puddle is a thing in the Kitchen. It is not portable. It is undescribed. The description is "This large puzzle of water probably formed from the water pouring out from the sink. If you don't clean this up then when your sister comes home she could slip and fall."
+The puddle is a thing in the Kitchen. It is not portable. It is undescribed. The description is "This large puzzle of water probably formed from the water pouring out from the sink. If you don't clean this up then when your sister comes home she could slip and fall. Combining something absorbant with this would probably get the mess cleaned up."
 
 Soaked clothes is a thing. The description of soaked clothes is " Your once putrid clothing is now soaked with water."
 
 Combining it with is an action applying to two things.
 Understand "combine [puddle] with [dirty clothes]" as combining it with.
+Understand "combine [dirty clothes] with [puddle]" as combining it with.
+
+[combining that I used based off of Mrs. Kiang's inform wiki.]
+Instead of combining dirty clothes with puddle:
+say "By adding the dirty clothes to the puddle you soaked up the puddle leaving you with some soaked clothes.";
+remove dirty clothes from play;
+remove puddle from play;
+move soaked clothes to player
 
 Instead of combining puddle with dirty clothes:
 say "By adding the dirty clothes to the puddle you soaked up the puddle leaving you with some soaked clothes.";
@@ -70,16 +78,18 @@ remove dirty clothes from play;
 remove puddle from play;
 move soaked clothes to player
 
-[Need help making this rule work. I want the player to combine the two objects before entering Sally's room.]
-Instead of entering Sally's Room:
-	If player does not have soaked clothes, 
-	move player to kitchen;
-		say " You cannot leave without cleaning this up."
-		
-If player does not have soaked clothes,
-Sally's Room is cannot be entered.
+[I created this to make it so taht you would have to complete the combine puzzle action. I created this pretty much on my own and am quite proud. There is a small bug where you cannot leave Sally's room after but it doesn't mater since you shouldn't need to go anywhere since its the game ends in the room.]		
+Instead of opening the flower door:
+	If the player does not have the soaked clothes,
+		move player to kitchen; 
+		say " You cannot leave without cleaning this up.";
+	If the player has the soaked clothes,
+		move player to Sally's room
 
-The Sally's Room is a Room. Sally's Room is south of the Kitchen. "The Room is reminiscent of your sister's room back when you were kids. There is a large glass window framed above a small pink bed. The smell of rotten flesh emanates from the easy bake oven. The Kitchen is North."
+The flower door is south of the kitchen and north of sally's room. The flower door is a door. The flower door is locked and lockable. The description is "A pink door with poorly painted flowers."
+
+
+The Sally's Room is a Room. Sally's Room is south of the Flower door.  "The Room is reminiscent of your sister's room back when you were kids. There is a large glass window framed above a small pink bed. The smell of rotten flesh emanates from the easy bake oven. The Kitchen is North."
 
 The easy bake oven is scenery in Sally's room. The description is " As you open up the easy bake you discover a bowl of spinach dressed with mayonnaise. You should probably not eat this."
 
@@ -88,7 +98,7 @@ The pink bed is scenery in Sally's Room. The description is " Your sister pulled
 The window is scenery in Sally's Room. The description is " Air gushes through the open window. It seems as though Sally has escaped and is living in the wild. You'll be with God soon."
 
 Instead of examining window:
-end the story saying " Air gushes through the open window. It seems as though Sally has escaped and is living in the wild. Outside you can hear your sisters car pill into the driveway... You'll be with God soon."
+end the story saying " Air gushes through the open window. It seems as though Sally has escaped and is living in the wild. Outside you can hear your sisters car pull into the driveway... You'll be with God soon."
 
 
 

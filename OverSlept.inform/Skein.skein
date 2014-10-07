@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1da400" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x2f2010" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1da400" />
-  <item nodeId="node-0x1da400">
+  <activeNode nodeId="node-0x2f2010" />
+  <item nodeId="node-0x2f2010">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -21,38 +21,16 @@ You can see a velvet door here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="51">NO</temporary>
+    <temporary score="114">NO</temporary>
     <children>
-      <child nodeId="node-0x68b4880" />
-      <child nodeId="node-0x68b2f90" />
-      <child nodeId="node-0x68c0310" />
-      <child nodeId="node-0x68b1c50" />
-      <child nodeId="node-0x1da450" />
-      <child nodeId="node-0x244790" />
+      <child nodeId="node-0x68a4c60" />
+      <child nodeId="node-0x68a4b80" />
+      <child nodeId="node-0x68a3840" />
+      <child nodeId="node-0x68a2570" />
+      <child nodeId="node-0x2f2120" />
     </children>
   </item>
-  <item nodeId="node-0x244790">
-    <command xml:space="preserve">take pills</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="4">YES</temporary>
-    <children>
-      <child nodeId="node-0x68ba290" />
-    </children>
-  </item>
-  <item nodeId="node-0x68ba290">
-    <command xml:space="preserve">eat pills</command>
-    <result xml:space="preserve">Right as your about to take these you realize you probably have more important issues to attend to.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="3">YES</temporary>
-  </item>
-  <item nodeId="node-0x1da450">
+  <item nodeId="node-0x2f2120">
     <command xml:space="preserve">x skylight</command>
     <result xml:space="preserve"> Like a light house piercing the viel of your memory this glass pane has awoken you from your drug induced slumber.
 
@@ -61,10 +39,10 @@ You can see a velvet door here.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x1da4a0" />
+      <child nodeId="node-0x2f2170" />
     </children>
   </item>
-  <item nodeId="node-0x1da4a0">
+  <item nodeId="node-0x2f2170">
     <command xml:space="preserve">bed</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -73,10 +51,10 @@ You can see a velvet door here.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b02c0" />
+      <child nodeId="node-0x2f21e0" />
     </children>
   </item>
-  <item nodeId="node-0x68b02c0">
+  <item nodeId="node-0x2f21e0">
     <command xml:space="preserve">x bed</command>
     <result xml:space="preserve"> After closer examination, you wonder why you even bothered to look at this bed. it&apos;s just a Bed. However, there seems to be small pills on its cover.
 
@@ -87,10 +65,10 @@ In the Bed is a pills.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0310" />
+      <child nodeId="node-0x2f2250" />
     </children>
   </item>
-  <item nodeId="node-0x68b0310">
+  <item nodeId="node-0x2f2250">
     <command xml:space="preserve">x pills</command>
     <result xml:space="preserve">These seems to be over-the-counter deep sleep pills. A couple of these could probably knock out an elephant, its amazing you&apos;re awake.
 
@@ -99,10 +77,10 @@ In the Bed is a pills.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0360" />
+      <child nodeId="node-0x68a0cc0" />
     </children>
   </item>
-  <item nodeId="node-0x68b0360">
+  <item nodeId="node-0x68a0cc0">
     <command xml:space="preserve">take pills</command>
     <result xml:space="preserve">Taken.
 
@@ -111,10 +89,10 @@ In the Bed is a pills.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b03b0" />
+      <child nodeId="node-0x68a0d10" />
     </children>
   </item>
-  <item nodeId="node-0x68b03b0">
+  <item nodeId="node-0x68a0d10">
     <command xml:space="preserve">eat pills</command>
     <result xml:space="preserve">That&apos;s plainly inedible.
 
@@ -123,10 +101,10 @@ In the Bed is a pills.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b04c0" />
+      <child nodeId="node-0x68a0d60" />
     </children>
   </item>
-  <item nodeId="node-0x68b04c0">
+  <item nodeId="node-0x68a0d60">
     <command xml:space="preserve">x clothes</command>
     <result xml:space="preserve">A gigantic pile of your dirty clothes that have been fermenting for a while. Use these to stoke the flames of Hell.
 
@@ -135,10 +113,10 @@ In the Bed is a pills.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0510" />
+      <child nodeId="node-0x68a0dd0" />
     </children>
   </item>
-  <item nodeId="node-0x68b0510">
+  <item nodeId="node-0x68a0dd0">
     <command xml:space="preserve">take clothes</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -147,10 +125,10 @@ In the Bed is a pills.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0560" />
+      <child nodeId="node-0x68a0e40" />
     </children>
   </item>
-  <item nodeId="node-0x68b0560">
+  <item nodeId="node-0x68a0e40">
     <command xml:space="preserve">take clothe</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -159,10 +137,10 @@ In the Bed is a pills.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b05b0" />
+      <child nodeId="node-0x68a0f70" />
     </children>
   </item>
-  <item nodeId="node-0x68b05b0">
+  <item nodeId="node-0x68a0f70">
     <command xml:space="preserve">take pile of clothes</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -171,10 +149,10 @@ In the Bed is a pills.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0600" />
+      <child nodeId="node-0x2f22e0" />
     </children>
   </item>
-  <item nodeId="node-0x68b0600">
+  <item nodeId="node-0x2f22e0">
     <command xml:space="preserve">x dresser</command>
     <result xml:space="preserve">This Old Dresser  has seen quite a bit of wear and tear. There is limited counter space that has a few uselesss cosmetics. A large mirror is embedded in the dresser, you could probably use it to see yourself.
 
@@ -183,10 +161,10 @@ In the Bed is a pills.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0710" />
+      <child nodeId="node-0x68a0fc0" />
     </children>
   </item>
-  <item nodeId="node-0x68b0710">
+  <item nodeId="node-0x68a0fc0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Bedroom
 A nice comfy bedroom with a nice skylight sitting directly over the bed. A pile of dirty clothes lay clumped in a pile on the floor. A lone dresser with a mirror resides across from the bed. To the east is the Study. To the south is the kitchen.
@@ -198,10 +176,10 @@ You can see a velvet door here.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0420" />
+      <child nodeId="node-0x68a1030" />
     </children>
   </item>
-  <item nodeId="node-0x68b0420">
+  <item nodeId="node-0x68a1030">
     <command xml:space="preserve">x cosmetics</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -210,10 +188,10 @@ You can see a velvet door here.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0780" />
+      <child nodeId="node-0x68a10a0" />
     </children>
   </item>
-  <item nodeId="node-0x68b0780">
+  <item nodeId="node-0x68a10a0">
     <command xml:space="preserve">x mirror</command>
     <result xml:space="preserve"> When you look into the mirror you see your reflection. You look awful, your hair is tangled and mangled. There are deep, dark bags that sag from under your eyes. Your dilapidated state reminds you that last night was terrible. The reason still escapes you but you remember something about the bed...
 
@@ -222,10 +200,10 @@ You can see a velvet door here.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b07f0" />
+      <child nodeId="node-0x68a1110" />
     </children>
   </item>
-  <item nodeId="node-0x68b07f0">
+  <item nodeId="node-0x68a1110">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Study
@@ -236,10 +214,10 @@ Study
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0860" />
+      <child nodeId="node-0x68a1180" />
     </children>
   </item>
-  <item nodeId="node-0x68b0860">
+  <item nodeId="node-0x68a1180">
     <command xml:space="preserve">x desk</command>
     <result xml:space="preserve"> As you look at the desk you at first only notice the massive clutter of paper. Right as you&apos;re turning away you notice a bright green note on the desk.
 
@@ -248,10 +226,10 @@ Study
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b08d0" />
+      <child nodeId="node-0x68a11f0" />
     </children>
   </item>
-  <item nodeId="node-0x68b08d0">
+  <item nodeId="node-0x68a11f0">
     <command xml:space="preserve">x computer</command>
     <result xml:space="preserve"> A new Mac desktop still turned on with muiltiple applications opened. On the Web Browser is an open email account belonging to your sister. One email appears to be starred.
 
@@ -260,10 +238,10 @@ Study
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0940" />
+      <child nodeId="node-0x68a0eb0" />
     </children>
   </item>
-  <item nodeId="node-0x68b0940">
+  <item nodeId="node-0x68a0eb0">
     <command xml:space="preserve">x email</command>
     <result xml:space="preserve"> The email reads about your sister&apos;s love life. A saucy email exchanged between her and her husband, apparently before they got married. You realize that you are 40 years old, lonely and working as a professional pooper scooper.
 
@@ -272,10 +250,10 @@ Study
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b09b0" />
+      <child nodeId="node-0x68a0f00" />
     </children>
   </item>
-  <item nodeId="node-0x68b09b0">
+  <item nodeId="node-0x68a0f00">
     <command xml:space="preserve">x paper</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -284,10 +262,10 @@ Study
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0650" />
+      <child nodeId="node-0x68a13e0" />
     </children>
   </item>
-  <item nodeId="node-0x68b0650">
+  <item nodeId="node-0x68a13e0">
     <command xml:space="preserve">x note</command>
     <result xml:space="preserve"> The note appears to be from your sister addressed to you. It reads, Hey Bro, I need you to watch my daughter Sally for a couple days while me and Jim are on our honeymoon. I know she&apos;ll probably drive you crazy but bear with it. Don&apos;t take sleep pills just to escape the stress of dealing with her. She&apos;s quite a lively one so if you leave her alone she may mess with you and our precious house. Thanks for the Solid and see you soon. -From, Ann P.S If you do pass out and are reading this message for the first time, (to your knowledge), then go to the file cabinet and open it using, I Suck, as the password
 
@@ -296,10 +274,10 @@ Study
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b06a0" />
+      <child nodeId="node-0x68a1450" />
     </children>
   </item>
-  <item nodeId="node-0x68b06a0">
+  <item nodeId="node-0x68a1450">
     <command xml:space="preserve">x cabinet</command>
     <result xml:space="preserve"> A high tech file cabinet that is in the shape of a businessman. Your sister buys the weirdest things. A small screen asks for a password.
 
@@ -308,10 +286,10 @@ Study
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0ba0" />
+      <child nodeId="node-0x68a14c0" />
     </children>
   </item>
-  <item nodeId="node-0x68b0ba0">
+  <item nodeId="node-0x68a14c0">
     <command xml:space="preserve">enter I Suck</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -320,10 +298,10 @@ Study
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0c10" />
+      <child nodeId="node-0x68a1530" />
     </children>
   </item>
-  <item nodeId="node-0x68b0c10">
+  <item nodeId="node-0x68a1530">
     <command xml:space="preserve">say I Suck</command>
     <result xml:space="preserve">(to yourself)
 There is no reply.
@@ -333,10 +311,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0c80" />
+      <child nodeId="node-0x68a15a0" />
     </children>
   </item>
-  <item nodeId="node-0x68b0c80">
+  <item nodeId="node-0x68a15a0">
     <command xml:space="preserve">write I Suck</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -345,10 +323,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0cf0" />
+      <child nodeId="node-0x68a1610" />
     </children>
   </item>
-  <item nodeId="node-0x68b0cf0">
+  <item nodeId="node-0x68a1610">
     <command xml:space="preserve">x screen</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -357,10 +335,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0d60" />
+      <child nodeId="node-0x68a1680" />
     </children>
   </item>
-  <item nodeId="node-0x68b0d60">
+  <item nodeId="node-0x68a1680">
     <command xml:space="preserve">enter I Suck on screen</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -369,10 +347,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0dd0" />
+      <child nodeId="node-0x68a16f0" />
     </children>
   </item>
-  <item nodeId="node-0x68b0dd0">
+  <item nodeId="node-0x68a16f0">
     <command xml:space="preserve">type I Suck on screen</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -381,10 +359,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0e40" />
+      <child nodeId="node-0x68a1760" />
     </children>
   </item>
-  <item nodeId="node-0x68b0e40">
+  <item nodeId="node-0x68a1760">
     <command xml:space="preserve">write I Suck on screen</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -393,10 +371,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0eb0" />
+      <child nodeId="node-0x68a17d0" />
     </children>
   </item>
-  <item nodeId="node-0x68b0eb0">
+  <item nodeId="node-0x68a17d0">
     <command xml:space="preserve">say I Suck to screen</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -405,10 +383,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0f20" />
+      <child nodeId="node-0x68a1840" />
     </children>
   </item>
-  <item nodeId="node-0x68b0f20">
+  <item nodeId="node-0x68a1840">
     <command xml:space="preserve">say I Suck to cabinet</command>
     <result xml:space="preserve">You can only do that to something animate.
 
@@ -417,10 +395,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0f90" />
+      <child nodeId="node-0x68a1260" />
     </children>
   </item>
-  <item nodeId="node-0x68b0f90">
+  <item nodeId="node-0x68a1260">
     <command xml:space="preserve">I Suck</command>
     <result xml:space="preserve">I only understood you as far as wanting to take inventory.
 
@@ -429,10 +407,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1000" />
+      <child nodeId="node-0x68a12d0" />
     </children>
   </item>
-  <item nodeId="node-0x68b1000">
+  <item nodeId="node-0x68a12d0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a pills
@@ -442,10 +420,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0a20" />
+      <child nodeId="node-0x68a1340" />
     </children>
   </item>
-  <item nodeId="node-0x68b0a20">
+  <item nodeId="node-0x68a1340">
     <command xml:space="preserve">take pills</command>
     <result xml:space="preserve">You already have that.
 
@@ -454,10 +432,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0a90" />
+      <child nodeId="node-0x68a1af0" />
     </children>
   </item>
-  <item nodeId="node-0x68b0a90">
+  <item nodeId="node-0x68a1af0">
     <command xml:space="preserve">eat pills</command>
     <result xml:space="preserve">That&apos;s plainly inedible.
 
@@ -466,10 +444,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b0b00" />
+      <child nodeId="node-0x68a1b60" />
     </children>
   </item>
-  <item nodeId="node-0x68b0b00">
+  <item nodeId="node-0x68a1b60">
     <command xml:space="preserve">enter password</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -478,10 +456,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b12b0" />
+      <child nodeId="node-0x68a1bd0" />
     </children>
   </item>
-  <item nodeId="node-0x68b12b0">
+  <item nodeId="node-0x68a1bd0">
     <command xml:space="preserve">open cabinet</command>
     <result xml:space="preserve">It seems to be locked.
 
@@ -490,10 +468,10 @@ There is no reply.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1320" />
+      <child nodeId="node-0x68a1c40" />
     </children>
   </item>
-  <item nodeId="node-0x68b1320">
+  <item nodeId="node-0x68a1c40">
     <command xml:space="preserve">unlock cabinet</command>
     <result xml:space="preserve">(with the pills)
 That doesn&apos;t seem to fit the lock.
@@ -503,10 +481,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1390" />
+      <child nodeId="node-0x68a1cb0" />
     </children>
   </item>
-  <item nodeId="node-0x68b1390">
+  <item nodeId="node-0x68a1cb0">
     <command xml:space="preserve">punch in I Suck</command>
     <result xml:space="preserve">I only understood you as far as wanting to punch inside.
 
@@ -515,10 +493,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1400" />
+      <child nodeId="node-0x68a1d20" />
     </children>
   </item>
-  <item nodeId="node-0x68b1400">
+  <item nodeId="node-0x68a1d20">
     <command xml:space="preserve">put in I Suck</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -527,10 +505,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1470" />
+      <child nodeId="node-0x68a1d90" />
     </children>
   </item>
-  <item nodeId="node-0x68b1470">
+  <item nodeId="node-0x68a1d90">
     <command xml:space="preserve">enter I Suck</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -539,10 +517,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b14e0" />
+      <child nodeId="node-0x68a1e00" />
     </children>
   </item>
-  <item nodeId="node-0x68b14e0">
+  <item nodeId="node-0x68a1e00">
     <command xml:space="preserve">enter I Suck on screen</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -551,10 +529,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1550" />
+      <child nodeId="node-0x68a1e70" />
     </children>
   </item>
-  <item nodeId="node-0x68b1550">
+  <item nodeId="node-0x68a1e70">
     <command xml:space="preserve">enter I Suck on keyboard</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -563,10 +541,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b15c0" />
+      <child nodeId="node-0x68a1ee0" />
     </children>
   </item>
-  <item nodeId="node-0x68b15c0">
+  <item nodeId="node-0x68a1ee0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Study
  A dark work room, its only lights eminate from the desktop compter and the small graphing desk. A large full length file cabinet rest in the corner. To the west is the Bedroom
@@ -576,10 +554,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1630" />
+      <child nodeId="node-0x68a1f50" />
     </children>
   </item>
-  <item nodeId="node-0x68b1630">
+  <item nodeId="node-0x68a1f50">
     <command xml:space="preserve">x cabinet</command>
     <result xml:space="preserve"> A high tech file cabinet that is in the shape of a businessman. Your sister buys the weirdest things. A small screen asks for a password.
 
@@ -588,10 +566,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b16a0" />
+      <child nodeId="node-0x68a1fc0" />
     </children>
   </item>
-  <item nodeId="node-0x68b16a0">
+  <item nodeId="node-0x68a1fc0">
     <command xml:space="preserve">open cabinet</command>
     <result xml:space="preserve">It seems to be locked.
 
@@ -600,10 +578,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1710" />
+      <child nodeId="node-0x68a2030" />
     </children>
   </item>
-  <item nodeId="node-0x68b1710">
+  <item nodeId="node-0x68a2030">
     <command xml:space="preserve">x screen</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -612,10 +590,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1780" />
+      <child nodeId="node-0x68a20a0" />
     </children>
   </item>
-  <item nodeId="node-0x68b1780">
+  <item nodeId="node-0x68a20a0">
     <command xml:space="preserve">x small screen</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -624,10 +602,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b17f0" />
+      <child nodeId="node-0x68a2110" />
     </children>
   </item>
-  <item nodeId="node-0x68b17f0">
+  <item nodeId="node-0x68a2110">
     <command xml:space="preserve">x password</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -636,10 +614,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1860" />
+      <child nodeId="node-0x68a2180" />
     </children>
   </item>
-  <item nodeId="node-0x68b1860">
+  <item nodeId="node-0x68a2180">
     <command xml:space="preserve">take I Suck</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -648,10 +626,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b18d0" />
+      <child nodeId="node-0x68a21f0" />
     </children>
   </item>
-  <item nodeId="node-0x68b18d0">
+  <item nodeId="node-0x68a21f0">
     <command xml:space="preserve">x note</command>
     <result xml:space="preserve"> The note appears to be from your sister addressed to you. It reads, Hey Bro, I need you to watch my daughter Sally for a couple days while me and Jim are on our honeymoon. I know she&apos;ll probably drive you crazy but bear with it. Don&apos;t take sleep pills just to escape the stress of dealing with her. She&apos;s quite a lively one so if you leave her alone she may mess with you and our precious house. Thanks for the Solid and see you soon. -From, Ann P.S If you do pass out and are reading this message for the first time, (to your knowledge), then go to the file cabinet and open it using, I Suck, as the password
 
@@ -660,10 +638,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1940" />
+      <child nodeId="node-0x68a18b0" />
     </children>
   </item>
-  <item nodeId="node-0x68b1940">
+  <item nodeId="node-0x68a18b0">
     <command xml:space="preserve">take I Suck</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -672,10 +650,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b19b0" />
+      <child nodeId="node-0x68a1920" />
     </children>
   </item>
-  <item nodeId="node-0x68b19b0">
+  <item nodeId="node-0x68a1920">
     <command xml:space="preserve">take password</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -684,10 +662,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1070" />
+      <child nodeId="node-0x68a1990" />
     </children>
   </item>
-  <item nodeId="node-0x68b1070">
+  <item nodeId="node-0x68a1990">
     <command xml:space="preserve">take I Suck</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -696,10 +674,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b10e0" />
+      <child nodeId="node-0x68a1a00" />
     </children>
   </item>
-  <item nodeId="node-0x68b10e0">
+  <item nodeId="node-0x68a1a00">
     <command xml:space="preserve">open cabinet with I Suck</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -708,10 +686,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1150" />
+      <child nodeId="node-0x68a1a70" />
     </children>
   </item>
-  <item nodeId="node-0x68b1150">
+  <item nodeId="node-0x68a1a70">
     <command xml:space="preserve">x cabinet</command>
     <result xml:space="preserve"> A high tech file cabinet that is in the shape of a businessman. Your sister buys the weirdest things. A small screen asks for a password.
 
@@ -720,10 +698,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b11c0" />
+      <child nodeId="node-0x68a2260" />
     </children>
   </item>
-  <item nodeId="node-0x68b11c0">
+  <item nodeId="node-0x68a2260">
     <command xml:space="preserve">open cabinet with I Suck</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -732,10 +710,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1230" />
+      <child nodeId="node-0x68a22d0" />
     </children>
   </item>
-  <item nodeId="node-0x68b1230">
+  <item nodeId="node-0x68a22d0">
     <command xml:space="preserve">open cabinet with i suck</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -744,10 +722,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1a20" />
+      <child nodeId="node-0x68a2340" />
     </children>
   </item>
-  <item nodeId="node-0x68b1a20">
+  <item nodeId="node-0x68a2340">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -756,10 +734,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1a90" />
+      <child nodeId="node-0x68a23b0" />
     </children>
   </item>
-  <item nodeId="node-0x68b1a90">
+  <item nodeId="node-0x68a23b0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -768,10 +746,10 @@ That doesn&apos;t seem to fit the lock.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1b00" />
+      <child nodeId="node-0x68a2420" />
     </children>
   </item>
-  <item nodeId="node-0x68b1b00">
+  <item nodeId="node-0x68a2420">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Bedroom
@@ -784,10 +762,10 @@ You can see a velvet door here.
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1b70" />
+      <child nodeId="node-0x68a2490" />
     </children>
   </item>
-  <item nodeId="node-0x68b1b70">
+  <item nodeId="node-0x68a2490">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Study
@@ -798,10 +776,10 @@ Study
     <changed>YES</changed>
     <temporary score="219">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1be0" />
+      <child nodeId="node-0x68a2500" />
     </children>
   </item>
-  <item nodeId="node-0x68b1be0">
+  <item nodeId="node-0x68a2500">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a pills
@@ -811,7 +789,7 @@ Study
     <changed>YES</changed>
     <temporary score="218">YES</temporary>
   </item>
-  <item nodeId="node-0x68b1c50">
+  <item nodeId="node-0x68a2570">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the velvet door)
 It seems to be locked.
@@ -819,92 +797,67 @@ It seems to be locked.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="144">YES</temporary>
+    <temporary score="114">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2ba0" />
-      <child nodeId="node-0x68b1cc0" />
+      <child nodeId="node-0x68a34c0" />
+      <child nodeId="node-0x68a25e0" />
     </children>
   </item>
-  <item nodeId="node-0x68b1cc0">
+  <item nodeId="node-0x68a25e0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Study
  A dark work room, its only lights eminate from the desktop compter and the small graphing desk. A large full length file cabinet rest in the corner. To the west is the Bedroom
 
-You can see an I Suck here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="144">YES</temporary>
-    <children>
-      <child nodeId="node-0x68b27b0" />
-      <child nodeId="node-0x68b2270" />
-      <child nodeId="node-0x68b1d30" />
-    </children>
-  </item>
-  <item nodeId="node-0x68b1d30">
-    <command xml:space="preserve">take isuck</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="144">YES</temporary>
+    <temporary score="114">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1da0" />
+      <child nodeId="node-0x68a30d0" />
+      <child nodeId="node-0x68a2650" />
+      <child nodeId="node-0x68a2b90" />
+      <child nodeId="node-0x68b3940" />
     </children>
   </item>
-  <item nodeId="node-0x68b1da0">
-    <command xml:space="preserve">open cabinet with I suck</command>
+  <item nodeId="node-0x68b3940">
+    <command xml:space="preserve">open cabinet with i suck</command>
     <result xml:space="preserve">(first taking the I Suck)
 You unlock the file cabinet.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="144">YES</temporary>
+    <temporary score="114">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1e10" />
+      <child nodeId="node-0x6802e20" />
     </children>
   </item>
-  <item nodeId="node-0x68b1e10">
+  <item nodeId="node-0x6802e20">
     <command xml:space="preserve">open cabinet</command>
     <result xml:space="preserve">You open the file cabinet, revealing a key.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="144">YES</temporary>
+    <temporary score="114">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1e80" />
+      <child nodeId="node-0xae81730" />
     </children>
   </item>
-  <item nodeId="node-0x68b1e80">
+  <item nodeId="node-0xae81730">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="144">YES</temporary>
+    <temporary score="114">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1ef0" />
+      <child nodeId="node-0xc75ecc0" />
     </children>
   </item>
-  <item nodeId="node-0x68b1ef0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="144">YES</temporary>
-    <children>
-      <child nodeId="node-0x68b1f60" />
-    </children>
-  </item>
-  <item nodeId="node-0x68b1f60">
+  <item nodeId="node-0xc75ecc0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Bedroom
@@ -915,94 +868,200 @@ You can see a velvet door here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="144">YES</temporary>
+    <temporary score="114">YES</temporary>
     <children>
-      <child nodeId="node-0x68b1fd0" />
+      <child nodeId="node-0x233f70" />
     </children>
   </item>
-  <item nodeId="node-0x68b1fd0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">(first opening the velvet door)
-It seems to be locked.
+  <item nodeId="node-0x233f70">
+    <command xml:space="preserve">take clothes</command>
+    <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="144">YES</temporary>
+    <temporary score="114">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2040" />
+      <child nodeId="node-0x6811c70" />
     </children>
   </item>
-  <item nodeId="node-0x68b2040">
-    <command xml:space="preserve">open vvelvet door with key</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="144">YES</temporary>
-    <children>
-      <child nodeId="node-0x68b20b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x68b20b0">
+  <item nodeId="node-0x6811c70">
     <command xml:space="preserve">open velvet door with key</command>
     <result xml:space="preserve">You unlock the velvet door.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="144">YES</temporary>
+    <temporary score="114">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2120" />
+      <child nodeId="node-0x241c60" />
     </children>
   </item>
-  <item nodeId="node-0x68b2120">
+  <item nodeId="node-0x241c60">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the velvet door)
 
 Kitchen room
- What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally&apos;s Room.  
+ What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. A puddle . What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally&apos;s Room. 
 
-You can see a velvet door here.
+You can see a velvet door and a flower door here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="144">YES</temporary>
+    <temporary score="114">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2190" />
+      <child nodeId="node-0x2dfea0" />
     </children>
   </item>
-  <item nodeId="node-0x68b2190">
+  <item nodeId="node-0x2dfea0">
+    <command xml:space="preserve">combine dirty clothes with puddle</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="114">YES</temporary>
+    <children>
+      <child nodeId="node-0x6802200" />
+    </children>
+  </item>
+  <item nodeId="node-0x6802200">
+    <command xml:space="preserve">combine puddle with dirty clothes</command>
+    <result xml:space="preserve">By adding the dirty clothes to the puddle you soaked up the puddle leaving you with some soaked clothes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="114">YES</temporary>
+    <children>
+      <child nodeId="node-0x685de20" />
+    </children>
+  </item>
+  <item nodeId="node-0x685de20">
     <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Sally&apos;s Room
+    <result xml:space="preserve">(first opening the flower door)
+ You cannot leave without cleaning this up.
+
+sally&apos;s room
 The Room is reminiscent of your sister&apos;s room back when you were kids. There is a large glass window framed above a small pink bed. The smell of rotten flesh emanates from the easy bake oven. The Kitchen is North.
 
+You can see a flower door here.
+
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="144">YES</temporary>
+    <temporary score="114">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2200" />
+      <child nodeId="node-0xae5bda0" />
     </children>
   </item>
-  <item nodeId="node-0x68b2200">
-    <command xml:space="preserve">x window</command>
-    <result xml:space="preserve">
+  <item nodeId="node-0xae5bda0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the flower door)
+ You cannot leave without cleaning this up.
 
-    ***  Air gushes through the open window. It seems as though Sally has escaped and is living in the wild. You&apos;ll be with God soon. ***
+sally&apos;s room
+The Room is reminiscent of your sister&apos;s room back when you were kids. There is a large glass window framed above a small pink bed. The smell of rotten flesh emanates from the easy bake oven. The Kitchen is North.
 
+You can see a flower door here.
 
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </result>
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="143">YES</temporary>
+    <temporary score="114">YES</temporary>
+    <children>
+      <child nodeId="node-0xae5d160" />
+    </children>
   </item>
-  <item nodeId="node-0x68b2270">
+  <item nodeId="node-0xae5d160">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the flower door)
+ You cannot leave without cleaning this up.
+
+sally&apos;s room
+The Room is reminiscent of your sister&apos;s room back when you were kids. There is a large glass window framed above a small pink bed. The smell of rotten flesh emanates from the easy bake oven. The Kitchen is North.
+
+You can see a flower door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="114">YES</temporary>
+    <children>
+      <child nodeId="node-0x32e140" />
+    </children>
+  </item>
+  <item nodeId="node-0x32e140">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the flower door)
+ You cannot leave without cleaning this up.
+
+sally&apos;s room
+The Room is reminiscent of your sister&apos;s room back when you were kids. There is a large glass window framed above a small pink bed. The smell of rotten flesh emanates from the easy bake oven. The Kitchen is North.
+
+You can see a flower door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="114">YES</temporary>
+    <children>
+      <child nodeId="node-0x4d72b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4d72b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the flower door)
+ You cannot leave without cleaning this up.
+
+sally&apos;s room
+The Room is reminiscent of your sister&apos;s room back when you were kids. There is a large glass window framed above a small pink bed. The smell of rotten flesh emanates from the easy bake oven. The Kitchen is North.
+
+You can see a flower door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="114">YES</temporary>
+    <children>
+      <child nodeId="node-0x30c5e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x30c5e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the flower door)
+ You cannot leave without cleaning this up.
+
+sally&apos;s room
+The Room is reminiscent of your sister&apos;s room back when you were kids. There is a large glass window framed above a small pink bed. The smell of rotten flesh emanates from the easy bake oven. The Kitchen is North.
+
+You can see a flower door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="114">YES</temporary>
+    <children>
+      <child nodeId="node-0x22b980" />
+    </children>
+  </item>
+  <item nodeId="node-0x22b980">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the flower door)
+ You cannot leave without cleaning this up.
+
+sally&apos;s room
+The Room is reminiscent of your sister&apos;s room back when you were kids. There is a large glass window framed above a small pink bed. The smell of rotten flesh emanates from the easy bake oven. The Kitchen is North.
+
+You can see a flower door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="113">YES</temporary>
+  </item>
+  <item nodeId="node-0x68a2b90">
     <command xml:space="preserve">take I suck</command>
     <result xml:space="preserve">Taken.
 
@@ -1011,10 +1070,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="130">YES</temporary>
     <children>
-      <child nodeId="node-0x68b22e0" />
+      <child nodeId="node-0x68a2c00" />
     </children>
   </item>
-  <item nodeId="node-0x68b22e0">
+  <item nodeId="node-0x68a2c00">
     <command xml:space="preserve">open cabinet with I suck</command>
     <result xml:space="preserve">You unlock the file cabinet.
 
@@ -1023,10 +1082,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="130">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2350" />
+      <child nodeId="node-0x68a2c70" />
     </children>
   </item>
-  <item nodeId="node-0x68b2350">
+  <item nodeId="node-0x68a2c70">
     <command xml:space="preserve">open cabinet</command>
     <result xml:space="preserve">You open the file cabinet, revealing a key.
 
@@ -1035,10 +1094,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="130">YES</temporary>
     <children>
-      <child nodeId="node-0x68b23c0" />
+      <child nodeId="node-0x68a2ce0" />
     </children>
   </item>
-  <item nodeId="node-0x68b23c0">
+  <item nodeId="node-0x68a2ce0">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">Taken.
 
@@ -1047,10 +1106,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="130">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2430" />
+      <child nodeId="node-0x68a2d50" />
     </children>
   </item>
-  <item nodeId="node-0x68b2430">
+  <item nodeId="node-0x68a2d50">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1059,10 +1118,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="130">YES</temporary>
     <children>
-      <child nodeId="node-0x68b24a0" />
+      <child nodeId="node-0x68a2dc0" />
     </children>
   </item>
-  <item nodeId="node-0x68b24a0">
+  <item nodeId="node-0x68a2dc0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Bedroom
@@ -1075,10 +1134,10 @@ You can see a velvet door here.
     <changed>YES</changed>
     <temporary score="130">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2510" />
+      <child nodeId="node-0x68a2e30" />
     </children>
   </item>
-  <item nodeId="node-0x68b2510">
+  <item nodeId="node-0x68a2e30">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the velvet door)
 It seems to be locked.
@@ -1088,10 +1147,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="130">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2580" />
+      <child nodeId="node-0x68a2ea0" />
     </children>
   </item>
-  <item nodeId="node-0x68b2580">
+  <item nodeId="node-0x68a2ea0">
     <command xml:space="preserve">open velvet door with key</command>
     <result xml:space="preserve">You unlock the velvet door.
 
@@ -1100,10 +1159,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="130">YES</temporary>
     <children>
-      <child nodeId="node-0x68b25f0" />
+      <child nodeId="node-0x68a2f10" />
     </children>
   </item>
-  <item nodeId="node-0x68b25f0">
+  <item nodeId="node-0x68a2f10">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the velvet door)
 
@@ -1117,10 +1176,10 @@ You can see a velvet door here.
     <changed>YES</changed>
     <temporary score="130">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2660" />
+      <child nodeId="node-0x68a2f80" />
     </children>
   </item>
-  <item nodeId="node-0x68b2660">
+  <item nodeId="node-0x68a2f80">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Sally&apos;s Room
@@ -1131,10 +1190,10 @@ The Room is reminiscent of your sister&apos;s room back when you were kids. Ther
     <changed>YES</changed>
     <temporary score="130">YES</temporary>
     <children>
-      <child nodeId="node-0x68b26d0" />
+      <child nodeId="node-0x68a2ff0" />
     </children>
   </item>
-  <item nodeId="node-0x68b26d0">
+  <item nodeId="node-0x68a2ff0">
     <command xml:space="preserve">x windown</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1143,10 +1202,10 @@ The Room is reminiscent of your sister&apos;s room back when you were kids. Ther
     <changed>YES</changed>
     <temporary score="130">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2740" />
+      <child nodeId="node-0x68a3060" />
     </children>
   </item>
-  <item nodeId="node-0x68b2740">
+  <item nodeId="node-0x68a3060">
     <command xml:space="preserve">x window</command>
     <result xml:space="preserve">
 
@@ -1161,7 +1220,166 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="129">YES</temporary>
   </item>
-  <item nodeId="node-0x68b27b0">
+  <item nodeId="node-0x68a2650">
+    <command xml:space="preserve">take isuck</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="144">YES</temporary>
+    <children>
+      <child nodeId="node-0x68a26c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68a26c0">
+    <command xml:space="preserve">open cabinet with I suck</command>
+    <result xml:space="preserve">(first taking the I Suck)
+You unlock the file cabinet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="144">YES</temporary>
+    <children>
+      <child nodeId="node-0x68a2730" />
+    </children>
+  </item>
+  <item nodeId="node-0x68a2730">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You open the file cabinet, revealing a key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="144">YES</temporary>
+    <children>
+      <child nodeId="node-0x68a27a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68a27a0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="144">YES</temporary>
+    <children>
+      <child nodeId="node-0x68a2810" />
+    </children>
+  </item>
+  <item nodeId="node-0x68a2810">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="144">YES</temporary>
+    <children>
+      <child nodeId="node-0x68a2880" />
+    </children>
+  </item>
+  <item nodeId="node-0x68a2880">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bedroom
+A nice comfy bedroom with a nice skylight sitting directly over the bed. A pile of dirty clothes lay clumped in a pile on the floor. A lone dresser with a mirror resides across from the bed. To the east is the Study. To the south is the kitchen.
+
+You can see a velvet door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="144">YES</temporary>
+    <children>
+      <child nodeId="node-0x68a28f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68a28f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the velvet door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="144">YES</temporary>
+    <children>
+      <child nodeId="node-0x68a2960" />
+    </children>
+  </item>
+  <item nodeId="node-0x68a2960">
+    <command xml:space="preserve">open vvelvet door with key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="144">YES</temporary>
+    <children>
+      <child nodeId="node-0x68a29d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68a29d0">
+    <command xml:space="preserve">open velvet door with key</command>
+    <result xml:space="preserve">You unlock the velvet door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="144">YES</temporary>
+    <children>
+      <child nodeId="node-0x68a2a40" />
+    </children>
+  </item>
+  <item nodeId="node-0x68a2a40">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the velvet door)
+
+Kitchen room
+ What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally&apos;s Room.  
+
+You can see a velvet door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="144">YES</temporary>
+    <children>
+      <child nodeId="node-0x68a2ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68a2ab0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Sally&apos;s Room
+The Room is reminiscent of your sister&apos;s room back when you were kids. There is a large glass window framed above a small pink bed. The smell of rotten flesh emanates from the easy bake oven. The Kitchen is North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="144">YES</temporary>
+    <children>
+      <child nodeId="node-0x68a2b20" />
+    </children>
+  </item>
+  <item nodeId="node-0x68a2b20">
+    <command xml:space="preserve">x window</command>
+    <result xml:space="preserve">
+
+    ***  Air gushes through the open window. It seems as though Sally has escaped and is living in the wild. You&apos;ll be with God soon. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="143">YES</temporary>
+  </item>
+  <item nodeId="node-0x68a30d0">
     <command xml:space="preserve">take password</command>
     <result xml:space="preserve">Taken.
 
@@ -1170,10 +1388,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="83">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2820" />
+      <child nodeId="node-0x68a3140" />
     </children>
   </item>
-  <item nodeId="node-0x68b2820">
+  <item nodeId="node-0x68a3140">
     <command xml:space="preserve">open the file cabinet with password</command>
     <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
 
@@ -1182,10 +1400,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="83">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2890" />
+      <child nodeId="node-0x68a31b0" />
     </children>
   </item>
-  <item nodeId="node-0x68b2890">
+  <item nodeId="node-0x68a31b0">
     <command xml:space="preserve">open file cabinet with password</command>
     <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
 
@@ -1194,10 +1412,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="83">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2900" />
+      <child nodeId="node-0x68a3220" />
     </children>
   </item>
-  <item nodeId="node-0x68b2900">
+  <item nodeId="node-0x68a3220">
     <command xml:space="preserve">open file cabinet with the password</command>
     <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
 
@@ -1206,10 +1424,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="83">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2970" />
+      <child nodeId="node-0x68a3290" />
     </children>
   </item>
-  <item nodeId="node-0x68b2970">
+  <item nodeId="node-0x68a3290">
     <command xml:space="preserve">open file cabinet with password</command>
     <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
 
@@ -1218,10 +1436,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="83">YES</temporary>
     <children>
-      <child nodeId="node-0x68b29e0" />
+      <child nodeId="node-0x68a3300" />
     </children>
   </item>
-  <item nodeId="node-0x68b29e0">
+  <item nodeId="node-0x68a3300">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a password
@@ -1231,10 +1449,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="83">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2a50" />
+      <child nodeId="node-0x68a3370" />
     </children>
   </item>
-  <item nodeId="node-0x68b2a50">
+  <item nodeId="node-0x68a3370">
     <command xml:space="preserve">look at file cabinet</command>
     <result xml:space="preserve"> A high tech file cabinet that is in the shape of a buisness man. Your sister buys the wierdest things. A small screen ask for a password.
 
@@ -1243,10 +1461,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="83">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2ac0" />
+      <child nodeId="node-0x68a33e0" />
     </children>
   </item>
-  <item nodeId="node-0x68b2ac0">
+  <item nodeId="node-0x68a33e0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Study
  A dark work room, its only lights eminate from the desktop compter and the small graphing desk. A large full legnth file cabinet rest in the corner. To the west is the Bedroom
@@ -1256,10 +1474,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="83">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2b30" />
+      <child nodeId="node-0x68a3450" />
     </children>
   </item>
-  <item nodeId="node-0x68b2b30">
+  <item nodeId="node-0x68a3450">
     <command xml:space="preserve">x cabinet</command>
     <result xml:space="preserve"> A high tech file cabinet that is in the shape of a buisness man. Your sister buys the wierdest things. A small screen ask for a password.
 
@@ -1268,7 +1486,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="82">YES</temporary>
   </item>
-  <item nodeId="node-0x68b2ba0">
+  <item nodeId="node-0x68a34c0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening the Velvet Door)
 It seems to be locked.
@@ -1278,10 +1496,10 @@ It seems to be locked.
     <changed>NO</changed>
     <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2c10" />
+      <child nodeId="node-0x68a3530" />
     </children>
   </item>
-  <item nodeId="node-0x68b2c10">
+  <item nodeId="node-0x68a3530">
     <command xml:space="preserve">take password</command>
     <result xml:space="preserve">Taken.
 
@@ -1290,10 +1508,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2c80" />
+      <child nodeId="node-0x68a35a0" />
     </children>
   </item>
-  <item nodeId="node-0x68b2c80">
+  <item nodeId="node-0x68a35a0">
     <command xml:space="preserve">open file cabinet with password</command>
     <result xml:space="preserve">You unlock the file cabinet.
 
@@ -1302,10 +1520,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2cf0" />
+      <child nodeId="node-0x68a3610" />
     </children>
   </item>
-  <item nodeId="node-0x68b2cf0">
+  <item nodeId="node-0x68a3610">
     <command xml:space="preserve">open cabinet</command>
     <result xml:space="preserve">You open the file cabinet, revealing a key.
 
@@ -1314,10 +1532,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2d60" />
+      <child nodeId="node-0x68a3680" />
     </children>
   </item>
-  <item nodeId="node-0x68b2d60">
+  <item nodeId="node-0x68a3680">
     <command xml:space="preserve">take ke</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1326,10 +1544,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2dd0" />
+      <child nodeId="node-0x68a36f0" />
     </children>
   </item>
-  <item nodeId="node-0x68b2dd0">
+  <item nodeId="node-0x68a36f0">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">Taken.
 
@@ -1338,10 +1556,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2e40" />
+      <child nodeId="node-0x68a3760" />
     </children>
   </item>
-  <item nodeId="node-0x68b2e40">
+  <item nodeId="node-0x68a3760">
     <command xml:space="preserve">open velvet door</command>
     <result xml:space="preserve">It seems to be locked.
 
@@ -1350,10 +1568,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="70">YES</temporary>
     <children>
-      <child nodeId="node-0x68b2eb0" />
+      <child nodeId="node-0x68a37d0" />
     </children>
   </item>
-  <item nodeId="node-0x68b2eb0">
+  <item nodeId="node-0x68a37d0">
     <command xml:space="preserve">open velvet door with key</command>
     <result xml:space="preserve">You unlock the Velvet Door.
 
@@ -1362,7 +1580,7 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="70">YES</temporary>
   </item>
-  <item nodeId="node-0x68c0310">
+  <item nodeId="node-0x68a3840">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Study
@@ -1371,52 +1589,65 @@ Study
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="51">YES</temporary>
+    <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x990e310" />
-      <child nodeId="node-0xb6ea610" />
-      <child nodeId="node-0xb6c6570" />
-      <child nodeId="node-0x68f02a0" />
+      <child nodeId="node-0x68a38b0" />
+      <child nodeId="node-0x68a42c0" />
+      <child nodeId="node-0x68a3d10" />
+      <child nodeId="node-0xae840a0" />
+      <child nodeId="node-0x68a4720" />
     </children>
   </item>
-  <item nodeId="node-0x68f02a0">
-    <command xml:space="preserve">open cabinet with I Suck</command>
+  <item nodeId="node-0x68a4720">
+    <command xml:space="preserve">open cabinet with I suck</command>
     <result xml:space="preserve">(first taking the I Suck)
 You unlock the file cabinet.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="29">YES</temporary>
+    <temporary score="40">YES</temporary>
     <children>
-      <child nodeId="node-0xb6b9120" />
+      <child nodeId="node-0x68a4790" />
     </children>
   </item>
-  <item nodeId="node-0xb6b9120">
-    <command xml:space="preserve">open file cabinet</command>
+  <item nodeId="node-0x68a4790">
+    <command xml:space="preserve">open cabinet</command>
     <result xml:space="preserve">You open the file cabinet, revealing a key.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="29">YES</temporary>
+    <temporary score="40">YES</temporary>
     <children>
-      <child nodeId="node-0xb6b5280" />
+      <child nodeId="node-0x68a4800" />
     </children>
   </item>
-  <item nodeId="node-0xb6b5280">
+  <item nodeId="node-0x68a4800">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="29">YES</temporary>
+    <temporary score="40">YES</temporary>
     <children>
-      <child nodeId="node-0xdd5d5b0" />
+      <child nodeId="node-0x68a4870" />
     </children>
   </item>
-  <item nodeId="node-0xdd5d5b0">
+  <item nodeId="node-0x68a4870">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
+    <children>
+      <child nodeId="node-0x68a48e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68a48e0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Bedroom
@@ -1427,24 +1658,24 @@ You can see a velvet door here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="29">YES</temporary>
+    <temporary score="40">YES</temporary>
     <children>
-      <child nodeId="node-0xb6e3d90" />
+      <child nodeId="node-0x68a4950" />
     </children>
   </item>
-  <item nodeId="node-0xb6e3d90">
+  <item nodeId="node-0x68a4950">
     <command xml:space="preserve">take clothes</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="29">YES</temporary>
+    <temporary score="40">YES</temporary>
     <children>
-      <child nodeId="node-0xb6755f0" />
+      <child nodeId="node-0x68a49c0" />
     </children>
   </item>
-  <item nodeId="node-0xb6755f0">
+  <item nodeId="node-0x68a49c0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the velvet door)
 It seems to be locked.
@@ -1452,24 +1683,24 @@ It seems to be locked.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="29">YES</temporary>
+    <temporary score="40">YES</temporary>
     <children>
-      <child nodeId="node-0x99eeed0" />
+      <child nodeId="node-0x68a4a30" />
     </children>
   </item>
-  <item nodeId="node-0x99eeed0">
+  <item nodeId="node-0x68a4a30">
     <command xml:space="preserve">open velvet door with key</command>
     <result xml:space="preserve">You unlock the velvet door.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="29">YES</temporary>
+    <temporary score="40">YES</temporary>
     <children>
-      <child nodeId="node-0xb6d2a90" />
+      <child nodeId="node-0x68a4aa0" />
     </children>
   </item>
-  <item nodeId="node-0xb6d2a90">
+  <item nodeId="node-0x68a4aa0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the velvet door)
 
@@ -1481,24 +1712,12 @@ You can see a velvet door here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="29">YES</temporary>
+    <temporary score="40">YES</temporary>
     <children>
-      <child nodeId="node-0x684a7b0" />
+      <child nodeId="node-0x68a4b10" />
     </children>
   </item>
-  <item nodeId="node-0x684a7b0">
-    <command xml:space="preserve">combine puddle with dirty clothes</command>
-    <result xml:space="preserve">By adding the dirty clothes to the puddle you soaked up the puddle leaving you with some soaked clothes.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="29">YES</temporary>
-    <children>
-      <child nodeId="node-0x68b9e60" />
-    </children>
-  </item>
-  <item nodeId="node-0x68b9e60">
+  <item nodeId="node-0x68a4b10">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Sally&apos;s Room
@@ -1507,167 +1726,21 @@ The Room is reminiscent of your sister&apos;s room back when you were kids. Ther
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="28">YES</temporary>
+    <temporary score="39">YES</temporary>
   </item>
-  <item nodeId="node-0xb6c6570">
-    <command xml:space="preserve">take i suck</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x68bcce0" />
-    </children>
-  </item>
-  <item nodeId="node-0x68bcce0">
-    <command xml:space="preserve">open cabinet using i suck</command>
-    <result xml:space="preserve">I only understood you as far as wanting to open the file cabinet.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x6831b60" />
-    </children>
-  </item>
-  <item nodeId="node-0x6831b60">
-    <command xml:space="preserve">open cabinet using I Suck</command>
-    <result xml:space="preserve">I only understood you as far as wanting to open the file cabinet.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd5da30" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd5da30">
-    <command xml:space="preserve">open cabinet with I suck</command>
-    <result xml:space="preserve">You unlock the file cabinet.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x3ebec0" />
-    </children>
-  </item>
-  <item nodeId="node-0x3ebec0">
-    <command xml:space="preserve">open cabinet</command>
-    <result xml:space="preserve">You open the file cabinet, revealing a key.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0xb6b2b60" />
-    </children>
-  </item>
-  <item nodeId="node-0xb6b2b60">
-    <command xml:space="preserve">take key</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x993da60" />
-    </children>
-  </item>
-  <item nodeId="node-0x993da60">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x9902630" />
-    </children>
-  </item>
-  <item nodeId="node-0x9902630">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Bedroom
-A nice comfy bedroom with a nice skylight sitting directly over the bed. A pile of dirty clothes lay clumped in a pile on the floor. A lone dresser with a mirror resides across from the bed. To the east is the Study. To the south is the kitchen.
-
-You can see a velvet door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x68bf990" />
-    </children>
-  </item>
-  <item nodeId="node-0x68bf990">
-    <command xml:space="preserve">take dirty clothes</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x68262d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x68262d0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">(first opening the velvet door)
-It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x6843070" />
-    </children>
-  </item>
-  <item nodeId="node-0x6843070">
-    <command xml:space="preserve">combine puddle with dirty clothes</command>
+  <item nodeId="node-0xae840a0">
+    <command xml:space="preserve">open cabinet with key</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="18">YES</temporary>
+    <temporary score="69">YES</temporary>
     <children>
-      <child nodeId="node-0xb6b5100" />
+      <child nodeId="node-0xb6deaf0" />
     </children>
   </item>
-  <item nodeId="node-0xb6b5100">
-    <command xml:space="preserve">take puddle</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x68bc6e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x68bc6e0">
-    <command xml:space="preserve">take piddle</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="17">YES</temporary>
-  </item>
-  <item nodeId="node-0xb6ea610">
+  <item nodeId="node-0xb6deaf0">
     <command xml:space="preserve">open cabinet with i suck</command>
     <result xml:space="preserve">(first taking the I Suck)
 You unlock the file cabinet.
@@ -1675,36 +1748,48 @@ You unlock the file cabinet.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="51">YES</temporary>
+    <temporary score="69">YES</temporary>
     <children>
-      <child nodeId="node-0xb6c4970" />
+      <child nodeId="node-0x68c29e0" />
     </children>
   </item>
-  <item nodeId="node-0xb6c4970">
+  <item nodeId="node-0x68c29e0">
     <command xml:space="preserve">open cabinet</command>
     <result xml:space="preserve">You open the file cabinet, revealing a key.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="51">YES</temporary>
+    <temporary score="69">YES</temporary>
     <children>
-      <child nodeId="node-0xb655cd0" />
+      <child nodeId="node-0x68aafa0" />
     </children>
   </item>
-  <item nodeId="node-0xb655cd0">
+  <item nodeId="node-0x68aafa0">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="51">YES</temporary>
+    <temporary score="69">YES</temporary>
     <children>
-      <child nodeId="node-0x133cb0" />
+      <child nodeId="node-0x1d4d60" />
     </children>
   </item>
-  <item nodeId="node-0x133cb0">
+  <item nodeId="node-0x1d4d60">
+    <command xml:space="preserve">take dirty clothes</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0xae784e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xae784e0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Bedroom
@@ -1715,12 +1800,749 @@ You can see a velvet door here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="51">YES</temporary>
+    <temporary score="69">YES</temporary>
     <children>
-      <child nodeId="node-0xb6f4340" />
+      <child nodeId="node-0xae5b0f0" />
     </children>
   </item>
-  <item nodeId="node-0xb6f4340">
+  <item nodeId="node-0xae5b0f0">
+    <command xml:space="preserve">take dirty clothes</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x68b5cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68b5cf0">
+    <command xml:space="preserve">open velvet door with key</command>
+    <result xml:space="preserve">You unlock the velvet door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x19fd00" />
+    </children>
+  </item>
+  <item nodeId="node-0x19fd00">
+    <command xml:space="preserve">combine puddle with dirty clothes</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x68143b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68143b0">
+    <command xml:space="preserve">combine puddle with dirty clothers</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x31fd20" />
+    </children>
+  </item>
+  <item nodeId="node-0x31fd20">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the velvet door)
+
+Kitchen room
+ What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. A puddle . What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally&apos;s Room. 
+
+You can see a velvet door and a flower door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x68c5130" />
+    </children>
+  </item>
+  <item nodeId="node-0x68c5130">
+    <command xml:space="preserve">combine puddle with dirty clothes</command>
+    <result xml:space="preserve">By adding the dirty clothes to the puddle you soaked up the puddle leaving you with some soaked clothes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x264af0" />
+    </children>
+  </item>
+  <item nodeId="node-0x264af0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Soaked clothes
+  a key
+  an I Suck
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x68d40f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68d40f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the flower door)
+ You cannot leave without cleaning this up.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+  </item>
+  <item nodeId="node-0x68a3d10">
+    <command xml:space="preserve">take i suck</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b3260" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b3260">
+    <command xml:space="preserve">open cabinet with i suck</command>
+    <result xml:space="preserve">You unlock the file cabinet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0x68b67a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68b67a0">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You open the file cabinet, revealing a key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0xae4a1b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xae4a1b0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0xae86620" />
+    </children>
+  </item>
+  <item nodeId="node-0xae86620">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bedroom
+A nice comfy bedroom with a nice skylight sitting directly over the bed. A pile of dirty clothes lay clumped in a pile on the floor. A lone dresser with a mirror resides across from the bed. To the east is the Study. To the south is the kitchen.
+
+You can see a velvet door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0xae8c530" />
+    </children>
+  </item>
+  <item nodeId="node-0xae8c530">
+    <command xml:space="preserve">open velvet door with key</command>
+    <result xml:space="preserve">You unlock the velvet door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0x32c420" />
+    </children>
+  </item>
+  <item nodeId="node-0x32c420">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the velvet door)
+
+Kitchen room
+ What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. A puddle . What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally&apos;s Room. 
+
+You can see a velvet door and a flower door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0xae8c1d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xae8c1d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the flower door)
+Kitchen room
+ What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. A puddle . What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally&apos;s Room. 
+
+You can see a velvet door and a flower door here.
+
+ You cannot leave without cleaning this up.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+  </item>
+  <item nodeId="node-0x68a42c0">
+    <command xml:space="preserve">open cabinet with i suck</command>
+    <result xml:space="preserve">(first taking the I Suck)
+You unlock the file cabinet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x68a4330" />
+      <child nodeId="node-0x32ea20" />
+    </children>
+  </item>
+  <item nodeId="node-0x32ea20">
+    <command xml:space="preserve">key</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0x21c8a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x21c8a0">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You open the file cabinet, revealing a key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0x223cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x223cc0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0xb6c36a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb6c36a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bedroom
+A nice comfy bedroom with a nice skylight sitting directly over the bed. A pile of dirty clothes lay clumped in a pile on the floor. A lone dresser with a mirror resides across from the bed. To the east is the Study. To the south is the kitchen.
+
+You can see a velvet door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0x6839a50" />
+    </children>
+  </item>
+  <item nodeId="node-0x6839a50">
+    <command xml:space="preserve">take clothers</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0x6822c30" />
+    </children>
+  </item>
+  <item nodeId="node-0x6822c30">
+    <command xml:space="preserve">take clothes</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0x68a9d70" />
+    </children>
+  </item>
+  <item nodeId="node-0x68a9d70">
+    <command xml:space="preserve">oen velvet door with key</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0x6826d80" />
+    </children>
+  </item>
+  <item nodeId="node-0x6826d80">
+    <command xml:space="preserve">open velvet door with key</command>
+    <result xml:space="preserve">You unlock the velvet door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0x68c2cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68c2cb0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the velvet door)
+
+Kitchen room
+ What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. A puddle . What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally&apos;s Room. 
+
+You can see a velvet door and a flower door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0x68c27a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68c27a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the flower door)
+Kitchen room
+ What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. A puddle . What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally&apos;s Room. 
+
+You can see a velvet door and a flower door here.
+
+ You cannot leave without cleaning this up.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0x680bc50" />
+    </children>
+  </item>
+  <item nodeId="node-0x680bc50">
+    <command xml:space="preserve">combine puddle with dirty clothes</command>
+    <result xml:space="preserve">By adding the dirty clothes to the puddle you soaked up the puddle leaving you with some soaked clothes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0x68b6cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68b6cf0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the flower door)
+ You cannot leave without cleaning this up.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="84">YES</temporary>
+    <children>
+      <child nodeId="node-0x22f8f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x22f8f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the flower door)
+ You cannot leave without cleaning this up.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+  </item>
+  <item nodeId="node-0x68a4330">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You open the file cabinet, revealing a key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x68a43a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68a43a0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x68a4410" />
+    </children>
+  </item>
+  <item nodeId="node-0x68a4410">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bedroom
+A nice comfy bedroom with a nice skylight sitting directly over the bed. A pile of dirty clothes lay clumped in a pile on the floor. A lone dresser with a mirror resides across from the bed. To the east is the Study. To the south is the kitchen.
+
+You can see a velvet door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x68a4480" />
+      <child nodeId="node-0xb68f340" />
+      <child nodeId="node-0x68dec00" />
+    </children>
+  </item>
+  <item nodeId="node-0x68dec00">
+    <command xml:space="preserve">open velvet door with key</command>
+    <result xml:space="preserve">You unlock the velvet door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x6804670" />
+    </children>
+  </item>
+  <item nodeId="node-0x6804670">
+    <command xml:space="preserve">take dirty clothes</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0xae538f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xae538f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the velvet door)
+
+Kitchen room
+ What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. A puddle . What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally&apos;s Room. 
+
+You can see a velvet door and a flower door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x2252a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2252a0">
+    <command xml:space="preserve">combine dirty clothes with puddle</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0xc79b710" />
+    </children>
+  </item>
+  <item nodeId="node-0xc79b710">
+    <command xml:space="preserve">combine puddle with dirty clothes</command>
+    <result xml:space="preserve">By adding the dirty clothes to the puddle you soaked up the puddle leaving you with some soaked clothes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0xb6667d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb6667d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the flower door)
+ You cannot leave without cleaning this up.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x39bb20" />
+    </children>
+  </item>
+  <item nodeId="node-0x39bb20">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the flower door)
+ You cannot leave without cleaning this up.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+  </item>
+  <item nodeId="node-0xb68f340">
+    <command xml:space="preserve">take clothes</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0x224da0" />
+    </children>
+  </item>
+  <item nodeId="node-0x224da0">
+    <command xml:space="preserve">open velvet door with key</command>
+    <result xml:space="preserve">You unlock the velvet door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0x681c8f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x681c8f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the velvet door)
+
+Kitchen room
+ What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. A puddle . What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally&apos;s Room. 
+
+You can see a velvet door and a flower door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0x68b1a90" />
+    </children>
+  </item>
+  <item nodeId="node-0x68b1a90">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the flower door)
+Kitchen room
+ What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. A puddle . What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally&apos;s Room. 
+
+You can see a velvet door and a flower door here.
+
+ You cannot leave without cleaning this up.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0x222380" />
+    </children>
+  </item>
+  <item nodeId="node-0x222380">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the flower door)
+Kitchen room
+ What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. A puddle . What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally&apos;s Room. 
+
+You can see a velvet door and a flower door here.
+
+ You cannot leave without cleaning this up.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0xb655fc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb655fc0">
+    <command xml:space="preserve">combine clothes with puddle </command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0x29a850" />
+    </children>
+  </item>
+  <item nodeId="node-0x29a850">
+    <command xml:space="preserve">combine dirty clothers with puddle</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0xae4a240" />
+    </children>
+  </item>
+  <item nodeId="node-0xae4a240">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Bedroom
+A nice comfy bedroom with a nice skylight sitting directly over the bed. A pile of dirty clothes lay clumped in a pile on the floor. A lone dresser with a mirror resides across from the bed. To the east is the Study. To the south is the kitchen.
+
+You can see a velvet door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0xae92a40" />
+    </children>
+  </item>
+  <item nodeId="node-0xae92a40">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Kitchen room
+ What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. A puddle . What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally&apos;s Room. 
+
+You can see a velvet door and a flower door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0x327240" />
+    </children>
+  </item>
+  <item nodeId="node-0x327240">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a dirty clothes
+  a key
+  an I Suck
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0x293330" />
+    </children>
+  </item>
+  <item nodeId="node-0x293330">
+    <command xml:space="preserve">combine puddle with dirty clothes </command>
+    <result xml:space="preserve">By adding the dirty clothes to the puddle you soaked up the puddle leaving you with some soaked clothes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0xb6f06e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb6f06e0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Soaked clothes
+  a key
+  an I Suck
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0x31cc50" />
+    </children>
+  </item>
+  <item nodeId="node-0x31cc50">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the flower door)
+ You cannot leave without cleaning this up.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0x68367b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68367b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the flower door)
+ You cannot leave without cleaning this up.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0xae6b820" />
+    </children>
+  </item>
+  <item nodeId="node-0xae6b820">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Soaked clothes
+  a key
+  an I Suck
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+  </item>
+  <item nodeId="node-0x68a4480">
     <command xml:space="preserve">open velvet door</command>
     <result xml:space="preserve">It seems to be locked.
 
@@ -1729,10 +2551,10 @@ You can see a velvet door here.
     <changed>YES</changed>
     <temporary score="51">YES</temporary>
     <children>
-      <child nodeId="node-0xb6cee20" />
+      <child nodeId="node-0x68a44f0" />
     </children>
   </item>
-  <item nodeId="node-0xb6cee20">
+  <item nodeId="node-0x68a44f0">
     <command xml:space="preserve">open velvet door with key</command>
     <result xml:space="preserve">You unlock the velvet door.
 
@@ -1741,10 +2563,10 @@ You can see a velvet door here.
     <changed>YES</changed>
     <temporary score="51">YES</temporary>
     <children>
-      <child nodeId="node-0xb6a6500" />
+      <child nodeId="node-0x68a4560" />
     </children>
   </item>
-  <item nodeId="node-0xb6a6500">
+  <item nodeId="node-0x68a4560">
     <command xml:space="preserve">take clothes</command>
     <result xml:space="preserve">Taken.
 
@@ -1753,10 +2575,10 @@ You can see a velvet door here.
     <changed>YES</changed>
     <temporary score="51">YES</temporary>
     <children>
-      <child nodeId="node-0x6876a60" />
+      <child nodeId="node-0x68a45d0" />
     </children>
   </item>
-  <item nodeId="node-0x6876a60">
+  <item nodeId="node-0x68a45d0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the velvet door)
 
@@ -1770,10 +2592,10 @@ You can see a velvet door here.
     <changed>YES</changed>
     <temporary score="51">YES</temporary>
     <children>
-      <child nodeId="node-0xb6c6700" />
+      <child nodeId="node-0x68a4640" />
     </children>
   </item>
-  <item nodeId="node-0xb6c6700">
+  <item nodeId="node-0x68a4640">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Sally&apos;s Room
@@ -1784,10 +2606,10 @@ The Room is reminiscent of your sister&apos;s room back when you were kids. Ther
     <changed>YES</changed>
     <temporary score="51">YES</temporary>
     <children>
-      <child nodeId="node-0xb6ec840" />
+      <child nodeId="node-0x68a46b0" />
     </children>
   </item>
-  <item nodeId="node-0xb6ec840">
+  <item nodeId="node-0x68a46b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Kitchen room
@@ -1800,56 +2622,44 @@ You can see a velvet door here.
     <changed>YES</changed>
     <temporary score="50">YES</temporary>
   </item>
-  <item nodeId="node-0x990e310">
-    <command xml:space="preserve">open cabinet with I suck</command>
+  <item nodeId="node-0x68a38b0">
+    <command xml:space="preserve">open cabinet with I Suck</command>
     <result xml:space="preserve">(first taking the I Suck)
 You unlock the file cabinet.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="40">YES</temporary>
+    <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x99d8ee0" />
+      <child nodeId="node-0x68a3920" />
     </children>
   </item>
-  <item nodeId="node-0x99d8ee0">
-    <command xml:space="preserve">open cabinet</command>
+  <item nodeId="node-0x68a3920">
+    <command xml:space="preserve">open file cabinet</command>
     <result xml:space="preserve">You open the file cabinet, revealing a key.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="40">YES</temporary>
+    <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x68421f0" />
+      <child nodeId="node-0x68a3990" />
     </children>
   </item>
-  <item nodeId="node-0x68421f0">
+  <item nodeId="node-0x68a3990">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="40">YES</temporary>
+    <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0xb6b0820" />
+      <child nodeId="node-0x68a3a00" />
     </children>
   </item>
-  <item nodeId="node-0xb6b0820">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="40">YES</temporary>
-    <children>
-      <child nodeId="node-0x99f8e50" />
-    </children>
-  </item>
-  <item nodeId="node-0x99f8e50">
+  <item nodeId="node-0x68a3a00">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Bedroom
@@ -1860,24 +2670,24 @@ You can see a velvet door here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="40">YES</temporary>
+    <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0xb6e5ec0" />
+      <child nodeId="node-0x68a3a70" />
     </children>
   </item>
-  <item nodeId="node-0xb6e5ec0">
+  <item nodeId="node-0x68a3a70">
     <command xml:space="preserve">take clothes</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="40">YES</temporary>
+    <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x346230" />
+      <child nodeId="node-0x68a3ae0" />
     </children>
   </item>
-  <item nodeId="node-0x346230">
+  <item nodeId="node-0x68a3ae0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the velvet door)
 It seems to be locked.
@@ -1885,24 +2695,24 @@ It seems to be locked.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="40">YES</temporary>
+    <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0xb6d9240" />
+      <child nodeId="node-0x68a3b50" />
     </children>
   </item>
-  <item nodeId="node-0xb6d9240">
+  <item nodeId="node-0x68a3b50">
     <command xml:space="preserve">open velvet door with key</command>
     <result xml:space="preserve">You unlock the velvet door.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="40">YES</temporary>
+    <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0x99250f0" />
+      <child nodeId="node-0x68a3bc0" />
     </children>
   </item>
-  <item nodeId="node-0x99250f0">
+  <item nodeId="node-0x68a3bc0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the velvet door)
 
@@ -1914,12 +2724,24 @@ You can see a velvet door here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="40">YES</temporary>
+    <temporary score="29">YES</temporary>
     <children>
-      <child nodeId="node-0xdd5c520" />
+      <child nodeId="node-0x68a3c30" />
     </children>
   </item>
-  <item nodeId="node-0xdd5c520">
+  <item nodeId="node-0x68a3c30">
+    <command xml:space="preserve">combine puddle with dirty clothes</command>
+    <result xml:space="preserve">By adding the dirty clothes to the puddle you soaked up the puddle leaving you with some soaked clothes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="29">YES</temporary>
+    <children>
+      <child nodeId="node-0x68a3ca0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68a3ca0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Sally&apos;s Room
@@ -1928,9 +2750,9 @@ The Room is reminiscent of your sister&apos;s room back when you were kids. Ther
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="39">YES</temporary>
+    <temporary score="28">YES</temporary>
   </item>
-  <item nodeId="node-0x68b2f90">
+  <item nodeId="node-0x68a4b80">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1939,10 +2761,10 @@ The Room is reminiscent of your sister&apos;s room back when you were kids. Ther
     <changed>YES</changed>
     <temporary score="157">YES</temporary>
     <children>
-      <child nodeId="node-0x68b3000" />
+      <child nodeId="node-0x68a4bf0" />
     </children>
   </item>
-  <item nodeId="node-0x68b3000">
+  <item nodeId="node-0x68a4bf0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Study
@@ -1953,7 +2775,7 @@ Study
     <changed>YES</changed>
     <temporary score="156">YES</temporary>
   </item>
-  <item nodeId="node-0x68b4880">
+  <item nodeId="node-0x68a4c60">
     <command xml:space="preserve">get all</command>
     <result xml:space="preserve">pills: Taken.
 
@@ -1962,10 +2784,10 @@ Study
     <changed>YES</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x68b48f0" />
+      <child nodeId="node-0x68a4cd0" />
     </children>
   </item>
-  <item nodeId="node-0x68b48f0">
+  <item nodeId="node-0x68a4cd0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Study
@@ -1978,10 +2800,10 @@ You can see an I Suck here.
     <changed>YES</changed>
     <temporary score="147">YES</temporary>
     <children>
-      <child nodeId="node-0x68b4960" />
+      <child nodeId="node-0x68a4d40" />
     </children>
   </item>
-  <item nodeId="node-0x68b4960">
+  <item nodeId="node-0x68a4d40">
     <command xml:space="preserve">get all</command>
     <result xml:space="preserve">I Suck: Taken.
 
