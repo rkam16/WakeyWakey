@@ -33,7 +33,7 @@ The Desk is scenery in the Study. The description is " As you look at the desk y
 
 The Note is scenery in the Study. The description is " The note appears to be from your sister addressed to you. It reads, 
 Hey Bro,
-       I need you to watch my daughter Sally for a couple days while me and Jim are on our honeymoon. I know she'll probably drive you crazy but bear with it. Don't take sleep pills just to escape the stress of dealing with her. She's quite a lively one so if you leave her alone she may mess with you and our precious house. Thanks for the Solid and see you soon.
+       I need you to watch my daughter Sally for a couple days while Jim and I are on our honeymoon. I know she'll probably drive you crazy but bear with it. Don't take sleep pills just to escape the stress of dealing with her. She's quite a lively one so if you leave her alone she may mess with you and our precious house. Thanks for the Solid and see you soon.
 			-From,
 				Ann
 P.S If you do pass out and are reading this message for the first time, (to your knowledge), open the file cabinet with, I Suck, as the password"
@@ -49,9 +49,9 @@ Understand "open file cabinet with password" as opening it with. Opening it with
 To unlock the file cabinet use open the file cabinet with password:
 		 say "The file cabinet accepted your voice password. Its mouth (the top drawer) opens.";
 
-The Kitchen is a Room. It is south of the Velvet Door. " What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. A puddle . What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally's Room. "
+The Kitchen is a Room. It is south of the Velvet Door. " What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. A puddle gestates on the floor. What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally's Room. "
 
-The refrigerator is scenery in the kitchen. The description of the refrigerator is "A glowing white monolith strung open with spoiled food. Sally must have went to town on the produce inside."
+The freezer is scenery in the kitchen. The description of the refrigerator is "A glowing white monolith strung open with spoiled food. Sally must have went to town on the produce inside."
 
 The kitchenware drawer is scenery in the kitchen. The description of the kitchenware drawer is " The drawer's contents consist of utensils and oven mitts. There is a slot in the drawer that belonged to a long butcher knife however it's empty... Either she's dead or you are."
 
@@ -86,7 +86,7 @@ Instead of opening the flower door:
 	If the player has the soaked clothes,
 		move player to Sally's room
 
-The flower door is south of the kitchen and north of sally's room. The flower door is a door. The flower door is locked and lockable. The description is "A pink door with poorly painted flowers."
+The flower door is south of the kitchen and north of Sally's room. The flower door is a door. The flower door is locked and lockable. The description is "A pink door with poorly painted flowers."
 
 
 The Sally's Room is a Room. Sally's Room is south of the Flower door.  "The Room is reminiscent of your sister's room back when you were kids. There is a large glass window framed above a small pink bed. The smell of rotten flesh emanates from the easy bake oven. The Kitchen is North."
@@ -98,7 +98,7 @@ The pink bed is scenery in Sally's Room. The description is " Your sister pulled
 The window is scenery in Sally's Room. The description is " Air gushes through the open window. It seems as though Sally has escaped and is living in the wild. You'll be with God soon."
 
 Instead of examining window:
-end the story saying " Air gushes through the open window. It seems as though Sally has escaped and is living in the wild. Outside you can hear your sisters car pull into the driveway... You'll be with God soon."
+end the story saying " Air gushes through the open window. It seems as though Sally has escaped and is living in the wild. Outside you can hear your sisters car pull into the driveway and your nine foot tall body building sister comes out. She gives you a look that indicates if anything happened to the house or Sally pain will follow... You'll be with God soon."
 
 
 

@@ -4392,7 +4392,7 @@ Global lightflag = false;
 ! ListWriter.i6t: Memory
 ! ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
-Constant REQUISITION_STACK_SIZE = 3*40;
+Constant REQUISITION_STACK_SIZE = 3*41;
 Array requisition_stack --> REQUISITION_STACK_SIZE;
 Global requisition_stack_pointer = 0;
 
@@ -10541,8 +10541,8 @@ Constant DirectionObject_11 = out_obj;
 Array Map_Storage -->
  0 0 0 I125_velvet_door 0 0 I130_study 0 0 0 0 0 ! Exits from: I124_bedroom
  0 0 0 0 0 0 0 I124_bedroom 0 0 0 0 ! Exits from: I130_study
- I125_velvet_door 0 0 I146_flower_door 0 0 0 0 0 0 0 0 ! Exits from: I133_kitchen_room
- I146_flower_door 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I147_sally_s_room
+ I125_velvet_door 0 0 I147_flower_door 0 0 0 0 0 0 0 0 ! Exits from: I133_kitchen_room
+ I147_flower_door 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I148_sally_s_room
 ;
 
 Class VPH_Class;
@@ -11161,7 +11161,7 @@ Object I125_velvet_door ""
     with IK2_Count 1
     with IK2_Link I134_computer
     with IK4_Count 0
-    with IK4_Link I146_flower_door
+    with IK4_Link I147_flower_door
     with KD_Count 4
     with name 'velvet' 'door' 'doors//p' 
     with action_bitmap 0 0 0 0 0 
@@ -11314,7 +11314,7 @@ Object -> I139_i_suck ""
     with vector 0
     has mark_as_thing
     with IK2_Count 13
-    with IK2_Link I141_refrigerator
+    with IK2_Link I141_freezer
     with KD_Count 2
     with name 'i//' 'suck' 'things//p' 
     with action_bitmap 0 0 0 0 0 
@@ -11332,7 +11332,7 @@ Object I133_kitchen_room ""
     with room_index -1
     has mark_as_room
     with IK1_Count 2
-    with IK1_Link I147_sally_s_room
+    with IK1_Link I148_sally_s_room
     with KD_Count 1
     with name 'kitchen' 'room' 'rooms//p' 
     with list_together BC_244
@@ -11340,26 +11340,26 @@ Object I133_kitchen_room ""
     with article BC_246
 ;
 
-Object -> I141_refrigerator ""
+Object -> I141_freezer ""
     class K2_thing
     with short_name BC_247
-    with description BC_248
     has static
     has scenery
     with vector 0
     has mark_as_thing
     with IK2_Count 15
-    with IK2_Link I142_kitchenware_drawer
+    with IK2_Link I143_kitchenware_drawer
     with KD_Count 2
-    with name 'refrigerator' 'things//p' 
+    with name 'freezer' 'things//p' 
     with action_bitmap 0 0 0 0 0 
+    with description BC_248
     with initial BC_249
     with list_together BC_250
     with plural BC_251
     with article BC_252
 ;
 
-Object -> I142_kitchenware_drawer ""
+Object -> I143_kitchenware_drawer ""
     class K2_thing
     with short_name BC_253
     with description BC_254
@@ -11367,8 +11367,8 @@ Object -> I142_kitchenware_drawer ""
     has scenery
     with vector 0
     has mark_as_thing
-    with IK2_Count 16
-    with IK2_Link I143_sink
+    with IK2_Count 17
+    with IK2_Link I144_sink
     with KD_Count 2
     with name 'kitchenware' 'drawer' 'things//p' 
     with action_bitmap 0 0 0 0 0 
@@ -11378,7 +11378,7 @@ Object -> I142_kitchenware_drawer ""
     with article BC_258
 ;
 
-Object -> I143_sink ""
+Object -> I144_sink ""
     class K2_thing
     with short_name BC_259
     with description BC_260
@@ -11386,8 +11386,8 @@ Object -> I143_sink ""
     has scenery
     with vector 0
     has mark_as_thing
-    with IK2_Count 17
-    with IK2_Link I144_puddle
+    with IK2_Count 18
+    with IK2_Link I145_puddle
     with KD_Count 2
     with name 'sink' 'things//p' 
     with action_bitmap 0 0 0 0 0 
@@ -11397,7 +11397,7 @@ Object -> I143_sink ""
     with article BC_264
 ;
 
-Object -> I144_puddle ""
+Object -> I145_puddle ""
     class K2_thing
     with short_name BC_265
     with description BC_266
@@ -11405,8 +11405,8 @@ Object -> I144_puddle ""
     has concealed
     with vector 0
     has mark_as_thing
-    with IK2_Count 18
-    with IK2_Link I145_soaked_clothes
+    with IK2_Count 19
+    with IK2_Link I142_refrigerator
     with KD_Count 2
     with name 'puddle' 'things//p' 
     with action_bitmap 0 0 0 0 0 
@@ -11416,29 +11416,46 @@ Object -> I144_puddle ""
     with article BC_270
 ;
 
-Object I145_soaked_clothes ""
+Object I142_refrigerator ""
     class K2_thing
     with short_name BC_271
     with description BC_272
+    with vector 0
+    has mark_as_thing
+    with IK2_Count 16
+    with IK2_Link I146_soaked_clothes
+    with KD_Count 2
+    with name 'refrigerator' 'things//p' 
+    with action_bitmap 0 0 0 0 0 
+    with initial BC_273
+    with list_together BC_274
+    with plural BC_275
+    with article BC_276
+;
+
+Object I146_soaked_clothes ""
+    class K2_thing
+    with short_name BC_277
+    with description BC_278
     has proper
     with vector 0
-    with cap_short_name BC_273
+    with cap_short_name BC_279
     has mark_as_thing
-    with IK2_Count 19
-    with IK2_Link I146_flower_door
+    with IK2_Count 20
+    with IK2_Link I147_flower_door
     with KD_Count 2
     with name 'soaked' 'clothes' 'things//p' 
     with action_bitmap 0 0 0 0 0 
-    with initial BC_274
-    with list_together BC_275
-    with plural BC_276
-    with article BC_277
+    with initial BC_280
+    with list_together BC_281
+    with plural BC_282
+    with article BC_283
 ;
 
-Object I146_flower_door ""
+Object I147_flower_door ""
     class K4_door
-    with short_name BC_278
-    with description BC_279
+    with short_name BC_284
+    with description BC_285
     has lockable
     has locked
     with vector 0
@@ -11453,60 +11470,41 @@ Object I146_flower_door ""
         ;
         loc = location;
         if (loc == thedark) loc = real_location;
-        if (loc == I133_kitchen_room) return I147_sally_s_room; return I133_kitchen_room;],
-    with found_in I133_kitchen_room I147_sally_s_room
+        if (loc == I133_kitchen_room) return I148_sally_s_room; return I133_kitchen_room;],
+    with found_in I133_kitchen_room I148_sally_s_room
     has mark_as_thing
-    with IK2_Count 20
-    with IK2_Link I148_easy_bake_oven
+    with IK2_Count 21
+    with IK2_Link I149_easy_bake_oven
     with IK4_Count 1
     with IK4_Link nothing
     with KD_Count 4
     with name 'flower' 'door' 'doors//p' 
     with action_bitmap 0 0 0 0 0 
-    with initial BC_280
-    with list_together BC_281
-    with plural BC_282
-    with article BC_283
-;
-
-Object I147_sally_s_room ""
-    class K1_room
-    with short_name BC_284
-    with description BC_285
-    has proper
-    with vector 0
-    with room_index -1
-    with cap_short_name BC_286
-    has mark_as_room
-    with IK1_Count 3
-    with IK1_Link nothing
-    with KD_Count 1
-    with name 'sally^s' 'room' 'rooms//p' 
+    with initial BC_286
     with list_together BC_287
     with plural BC_288
     with article BC_289
 ;
 
-Object -> I148_easy_bake_oven ""
-    class K2_thing
+Object I148_sally_s_room ""
+    class K1_room
     with short_name BC_290
     with description BC_291
-    has static
-    has scenery
+    has proper
     with vector 0
-    has mark_as_thing
-    with IK2_Count 21
-    with IK2_Link I149_pink_bed
-    with KD_Count 2
-    with name 'easy' 'bake' 'oven' 'things//p' 
-    with action_bitmap 0 0 0 0 0 
-    with initial BC_292
+    with room_index -1
+    with cap_short_name BC_292
+    has mark_as_room
+    with IK1_Count 3
+    with IK1_Link nothing
+    with KD_Count 1
+    with name 'sally^s' 'room' 'rooms//p' 
     with list_together BC_293
     with plural BC_294
     with article BC_295
 ;
 
-Object -> I149_pink_bed ""
+Object -> I149_easy_bake_oven ""
     class K2_thing
     with short_name BC_296
     with description BC_297
@@ -11515,9 +11513,9 @@ Object -> I149_pink_bed ""
     with vector 0
     has mark_as_thing
     with IK2_Count 22
-    with IK2_Link I150_window
+    with IK2_Link I150_pink_bed
     with KD_Count 2
-    with name 'pink' 'bed' 'things//p' 
+    with name 'easy' 'bake' 'oven' 'things//p' 
     with action_bitmap 0 0 0 0 0 
     with initial BC_298
     with list_together BC_299
@@ -11525,7 +11523,7 @@ Object -> I149_pink_bed ""
     with article BC_301
 ;
 
-Object -> I150_window ""
+Object -> I150_pink_bed ""
     class K2_thing
     with short_name BC_302
     with description BC_303
@@ -11534,14 +11532,33 @@ Object -> I150_window ""
     with vector 0
     has mark_as_thing
     with IK2_Count 23
-    with IK2_Link nothing
+    with IK2_Link I151_window
     with KD_Count 2
-    with name 'window' 'things//p' 
+    with name 'pink' 'bed' 'things//p' 
     with action_bitmap 0 0 0 0 0 
     with initial BC_304
     with list_together BC_305
     with plural BC_306
     with article BC_307
+;
+
+Object -> I151_window ""
+    class K2_thing
+    with short_name BC_308
+    with description BC_309
+    has static
+    has scenery
+    with vector 0
+    has mark_as_thing
+    with IK2_Count 24
+    with IK2_Link nothing
+    with KD_Count 2
+    with name 'window' 'things//p' 
+    with action_bitmap 0 0 0 0 0 
+    with initial BC_310
+    with list_together BC_311
+    with plural BC_312
+    with article BC_313
 ;
 
 Constant I70_english_language = 1;
@@ -11595,12 +11612,12 @@ Constant I122_masculine_gender = 2;
 Constant I123_feminine_gender = 3;
 Array Global_Vars -->
   (false) ! 7 darkness witnessed
-  (BC_308) ! 25 command prompt
+  (BC_314) ! 25 command prompt
   (I70_english_language) ! 29 language of play
-  (BC_309) ! 32 story author
-  (BC_310) ! 33 story headline
-  (BC_311) ! 34 story genre
-  (BC_312) ! 35 story description
+  (BC_315) ! 32 story author
+  (BC_316) ! 33 story headline
+  (BC_317) ! 34 story genre
+  (BC_318) ! 35 story description
   (1) ! 36 release number
   (0) ! 37 story creation year
   (0) ! 45 locale paragraph count
@@ -11615,14 +11632,14 @@ Array Global_Vars -->
 
 
 Array T0_final_question_options table  tab_0_0 tab_0_1 tab_0_2 tab_0_3 tab_0_4;
-Array tab_0_0 table $0664 0 (BC_313) (BC_314) (BC_315) (BC_316) (BC_317) ;
+Array tab_0_0 table $0664 0 (BC_319) (BC_320) (BC_321) (BC_322) (BC_323) ;
 Array tab_0_1 table $0465 1 (0) (0) (1) (0) (0) ;
 Array tab_0_2 table $2066 2 (Consult_Grammar_94) (Consult_Grammar_95) (Consult_Grammar_96) (Consult_Grammar_97) (Consult_Grammar_98) ;
 Array tab_0_3 table $0067 3 (IMMEDIATELY_RESTART_VM_R) (IMMEDIATELY_RESTORE_SAVED_R) ( TABLE_NOVALUE) (IMMEDIATELY_QUIT_R) (IMMEDIATELY_UNDO_R) ;
 Array tab_0_4 table $0068 4 ( TABLE_NOVALUE) ( TABLE_NOVALUE) (V27_amusing_a_victorious_pla) ( TABLE_NOVALUE) ( TABLE_NOVALUE) ;
 Array T1_locale_priorities table  tab_1_0 tab_1_1;
-Array tab_1_0 table $0869 NULL ( TABLE_NOVALUE)  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
-Array tab_1_1 table $446a 5 ( TABLE_NOVALUE)  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
+Array tab_1_0 table $0869 NULL ( TABLE_NOVALUE)  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
+Array tab_1_1 table $446a 5 ( TABLE_NOVALUE)  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
 Array TB_Blanks -> 
   ! For table T0_final_question_options
   $00  ! Column 0
@@ -11632,7 +11649,7 @@ Array TB_Blanks ->
   $1b  ! Column 4
   
   ! For table T1_locale_priorities
-  $ff $ff $ff $01  ! Column 1
+  $ff $ff $ff $03  ! Column 1
   
   ! End of table
   NULL NULL;
@@ -12793,7 +12810,7 @@ Array ActionHappened --> 0 0 0 0 0;
 ! No specific request
 ! Instead of combining dirty clothes with puddle:
 [ R_813 ;
-    if ((((action ==##A78_combining_it_with) &&  (actor==player) && ((noun == I128_dirty_clothes) && (true)) && ((second == I144_puddle) && (true))))) { ! Runs only when pattern matches
+    if ((((action ==##A78_combining_it_with) &&  (actor==player) && ((noun == I128_dirty_clothes) && (true)) && ((second == I145_puddle) && (true))))) { ! Runs only when pattern matches
     self = noun;
     if (debug_rules) DB_Rule(R_813, 813);
     ! [1: say ~By adding the dirty clothes to the puddle you soaked up the puddle leaving you with some soaked clothes.~]
@@ -12801,9 +12818,9 @@ Array ActionHappened --> 0 0 0 0 0;
     ! [2: remove dirty clothes from play]
     RemoveFromPlay(I128_dirty_clothes);
     ! [3: remove puddle from play]
-    RemoveFromPlay(I144_puddle);
+    RemoveFromPlay(I145_puddle);
     ! [4: move soaked clothes to player]
-    MoveObject(I145_soaked_clothes, player, 0, false);
+    MoveObject(I146_soaked_clothes, player, 0, false);
     RulebookFails(); rtrue;
     } else if (debug_rules > 1) DB_Rule(R_813, 813, 'action');
     rfalse;
@@ -12811,7 +12828,7 @@ Array ActionHappened --> 0 0 0 0 0;
 ! No specific request
 ! Instead of combining puddle with dirty clothes:
 [ R_814 ;
-    if ((((action ==##A78_combining_it_with) &&  (actor==player) && ((noun == I144_puddle) && (true)) && ((second == I128_dirty_clothes) && (true))))) { ! Runs only when pattern matches
+    if ((((action ==##A78_combining_it_with) &&  (actor==player) && ((noun == I145_puddle) && (true)) && ((second == I128_dirty_clothes) && (true))))) { ! Runs only when pattern matches
     self = noun;
     if (debug_rules) DB_Rule(R_814, 814);
     ! [1: say ~By adding the dirty clothes to the puddle you soaked up the puddle leaving you with some soaked clothes.~]
@@ -12819,9 +12836,9 @@ Array ActionHappened --> 0 0 0 0 0;
     ! [2: remove dirty clothes from play]
     RemoveFromPlay(I128_dirty_clothes);
     ! [3: remove puddle from play]
-    RemoveFromPlay(I144_puddle);
+    RemoveFromPlay(I145_puddle);
     ! [4: move soaked clothes to player]
-    MoveObject(I145_soaked_clothes, player, 0, false);
+    MoveObject(I146_soaked_clothes, player, 0, false);
     RulebookFails(); rtrue;
     } else if (debug_rules > 1) DB_Rule(R_814, 814, 'action');
     rfalse;
@@ -12841,15 +12858,15 @@ Array ActionHappened --> 0 0 0 0 0;
 ! No specific request
 ! Instead of opening the flower door:
 [ R_815 ;
-    if ((((action ==##Open) &&  (actor==player) && ((noun == I146_flower_door) && (true))))) { ! Runs only when pattern matches
+    if ((((action ==##Open) &&  (actor==player) && ((noun == I147_flower_door) && (true))))) { ! Runs only when pattern matches
     self = noun;
     if (debug_rules) DB_Rule(R_815, 815);
     ! [1: if the player does not have the soaked clothes , move player to kitchen]
-    if (((~~((player == OwnerOf(I145_soaked_clothes)))))) { MoveObject(player, I133_kitchen_room, 0, false); }
+    if (((~~((player == OwnerOf(I146_soaked_clothes)))))) { MoveObject(player, I133_kitchen_room, 0, false); }
     ! [2: say ~ You cannot leave without cleaning this up.~]
     say__p=1;ParaContent(); print " You cannot leave without cleaning this up."; new_line; .L_Say7; .L_SayX7;
     ! [3: if the player has the soaked clothes , move player to sally's room]
-    if (((player == OwnerOf(I145_soaked_clothes)))) { MoveObject(player, I147_sally_s_room, 0, false); }
+    if (((player == OwnerOf(I146_soaked_clothes)))) { MoveObject(player, I148_sally_s_room, 0, false); }
     RulebookFails(); rtrue;
     } else if (debug_rules > 1) DB_Rule(R_815, 815, 'action');
     rfalse;
@@ -12857,10 +12874,10 @@ Array ActionHappened --> 0 0 0 0 0;
 ! No specific request
 ! Instead of examining window:
 [ R_816 ;
-    if ((((action ==##Examine) &&  (actor==player) && ((noun == I150_window) && (true))))) { ! Runs only when pattern matches
+    if ((((action ==##Examine) &&  (actor==player) && ((noun == I151_window) && (true))))) { ! Runs only when pattern matches
     self = noun;
     if (debug_rules) DB_Rule(R_816, 816);
-    ! [1: end the story saying ~ Air gushes through the open window. It seems as though Sally has escaped and is living in the wild. Outside you can hear your sisters car pull into the driveway... You'll be with God soon.~]
+    ! [1: end the story saying ~ Air gushes through the open window. It seems as though Sally has escaped and is living in the wild. Outside you can hear your sisters car pull into the driveway and your nine foot tall body building sister comes out. She gives you a look that indicates if anything happened to the house or Sally pain will follow... You'll be with God soon.~]
     deadflag=TX_L_96; story_complete=false;
     RulebookFails(); rtrue;
     } else if (debug_rules > 1) DB_Rule(R_816, 816, 'action');
@@ -29009,7 +29026,7 @@ Array FWMatrix --> NUM_ROOMS*NUM_ROOMS;
 ! Relations.i6t: Relation Route-Finding
 ! ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
-Constant MAX_ROUTE_LENGTH = 40 + 32;
+Constant MAX_ROUTE_LENGTH = 41 + 32;
 
 [ RelationRouteTo relation from to count  handler;
 	if (count) {
@@ -46907,7 +46924,7 @@ Array Rel_Record_69 -->
     x ! saved value of noun
     ;
     x=noun;
-    return ((noun ofclass K2_thing) && (noun == I144_puddle));
+    return ((noun ofclass K2_thing) && (noun == I145_puddle));
 ];
 [ Noun_Filter_5 
     x ! saved value of noun
@@ -46925,7 +46942,7 @@ Array Rel_Record_69 -->
     x ! saved value of noun
     ;
     x=noun;
-    return ((noun ofclass K2_thing) && (noun == I144_puddle));
+    return ((noun ofclass K2_thing) && (noun == I145_puddle));
 ];
 
 
@@ -48304,27 +48321,27 @@ Constant TX_PS_61 = " A high tech file cabinet that is in the shape of a busines
 Constant TX_PS_53 = " A new Mac desktop still turned on with muiltiple applications opened. On the Web Browser is an open email account belonging to your sister. One email appears to be starred.";
 Constant TX_PS_65 = " A small password for a small man.";
 Constant TX_PS_45 = " After closer examination, you wonder why you even bothered to look at this bed. it's just a Bed. However, there seems to be small pills on its cover.";
-Constant TX_PS_96 = " Air gushes through the open window. It seems as though Sally has escaped and is living in the wild. Outside you can hear your sisters car pull into the driveway... You'll be with God soon.";
+Constant TX_PS_96 = " Air gushes through the open window. It seems as though Sally has escaped and is living in the wild. Outside you can hear your sisters car pull into the driveway and your nine foot tall body building sister comes out. She gives you a look that indicates if anything happened to the house or Sally pain will follow... You'll be with God soon.";
 Array TX_L_96 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_96;
 Constant TX_PS_88 = " Air gushes through the open window. It seems as though Sally has escaped and is living in the wild. You'll be with God soon.";
 Constant TX_PS_63 = " An iron key with a small velvet strip taped to the top.";
 Constant TX_PS_57 = " As you look at the desk you at first only notice the massive clutter of paper. Right as you're turning away you notice a bright green note on the desk.";
 Constant TX_PS_84 = " As you open up the easy bake you discover a bowl of spinach dressed with mayonnaise. You should probably not eat this.";
-Constant TX_PS_73 = " It seems as though water has gushed out of the sink onto the floor. The water has become still and gathered into a puddle";
+Constant TX_PS_72 = " It seems as though water has gushed out of the sink onto the floor. The water has become still and gathered into a puddle";
 Constant TX_PS_39 = " Like a light house piercing the viel of your memory this glass pane has awoken you from your drug induced slumber.";
-Constant TX_PS_71 = " The drawer's contents consist of utensils and oven mitts. There is a slot in the drawer that belonged to a long butcher knife however it's empty... Either she's dead or you are.";
+Constant TX_PS_70 = " The drawer's contents consist of utensils and oven mitts. There is a slot in the drawer that belonged to a long butcher knife however it's empty... Either she's dead or you are.";
 Constant TX_PS_55 = " The email reads about your sister's love life. A saucy email exchanged between her and her husband, apparently before they got married. You realize that you are 40 years old, lonely and working as a professional pooper scooper.";
-Constant TX_PS_59 = " The note appears to be from your sister addressed to you. It reads, Hey Bro, I need you to watch my daughter Sally for a couple days while me and Jim are on our honeymoon. I know she'll probably drive you crazy but bear with it. Don't take sleep pills just to escape the stress of dealing with her. She's quite a lively one so if you leave her alone she may mess with you and our precious house. Thanks for the Solid and see you soon. -From, Ann P.S If you do pass out and are reading this message for the first time, (to your knowledge), open the file cabinet with, I Suck, as the password";
-Constant TX_PS_67 = " What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. A puddle . What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally's Room. ";
+Constant TX_PS_59 = " The note appears to be from your sister addressed to you. It reads, Hey Bro, I need you to watch my daughter Sally for a couple days while Jim and I are on our honeymoon. I know she'll probably drive you crazy but bear with it. Don't take sleep pills just to escape the stress of dealing with her. She's quite a lively one so if you leave her alone she may mess with you and our precious house. Thanks for the Solid and see you soon. -From, Ann P.S If you do pass out and are reading this message for the first time, (to your knowledge), open the file cabinet with, I Suck, as the password";
+Constant TX_PS_67 = " What remains of this modest kitchen is what appears to be a war zone. It seems as though little Sally went on a rampage. There is a large white freezer plugged in right next to the sink. A puddle gestates on the floor. What seems to be a kitchenware drawer is open. To the North is the Bedroom, to the South is Sally's Room. ";
 Constant TX_PS_43 = " When you look into the mirror you see your reflection. You look awful, your hair is tangled and mangled. There are deep, dark bags that sag from under your eyes. Your dilapidated state reminds you that last night was terrible. The reason still escapes you but you remember something about the bed...";
-Constant TX_PS_77 = " Your once putrid clothing is now soaked with water.";
+Constant TX_PS_78 = " Your once putrid clothing is now soaked with water.";
 Constant TX_PS_86 = " Your sister pulled out all of the stops with this luxury waterbed. Too bad Sally stuck the butcher knife in it.";
 Constant TX_PS_89 = ">";
 Constant TX_PS_41 = "A gigantic pile of your dirty clothes that have been fermenting for a while. Last night they got even worse when you spilt coke by them and they absorbed it .";
-Constant TX_PS_69 = "A glowing white monolith strung open with spoiled food. Sally must have went to town on the produce inside.";
+Constant TX_PS_76 = "A glowing white monolith strung open with spoiled food. Sally must have went to town on the produce inside.";
 Constant TX_PS_49 = "A large Koa door with a wiki tiki on its handle.";
 Constant TX_PS_35 = "A nice comfy bedroom with a nice skylight sitting directly over the bed. A pile of dirty clothes lay clumped in a pile on the floor. A lone dresser with a mirror resides across from the bed. To the east is the Study. To the south is the kitchen.";
-Constant TX_PS_79 = "A pink door with poorly painted flowers.";
+Constant TX_PS_80 = "A pink door with poorly painted flowers.";
 Constant TX_PS_3 = "An Interactive Fiction";
 Constant TX_PS_32 = "As good-looking as ever.";
 Constant TX_PS_44 = "Bed";
@@ -48340,13 +48357,13 @@ Constant TX_PS_94 = "QUIT";
 Constant TX_PS_91 = "RESTART";
 Constant TX_PS_92 = "RESTORE a saved game";
 Constant TX_PS_4 = "Riley Kam";
-Constant TX_PS_82 = "Sally's room";
-Constant TX_PS_76 = "Soaked clothes";
+Constant TX_PS_81 = "Sally's room";
+Constant TX_PS_77 = "Soaked clothes";
 Constant TX_PS_50 = "Study";
-Constant TX_PS_81 = "The Room is reminiscent of your sister's room back when you were kids. There is a large glass window framed above a small pink bed. The smell of rotten flesh emanates from the easy bake oven. The Kitchen is North.";
+Constant TX_PS_82 = "The Room is reminiscent of your sister's room back when you were kids. There is a large glass window framed above a small pink bed. The smell of rotten flesh emanates from the easy bake oven. The Kitchen is North.";
 Constant TX_PS_47 = "These seems to be over-the-counter deep sleep pills. A couple of these could probably knock out an elephant, its amazing you're awake. Don't even try to take these again.";
 Constant TX_PS_37 = "This Old Dresser  has seen quite a bit of wear and tear. There is limited counter space that has a few uselesss cosmetics. A large mirror is embedded in the dresser, you could probably use it to see yourself.";
-Constant TX_PS_75 = "This large puzzle of water probably formed from the water pouring out from the sink. If you don't clean this up then when your sister comes home she could slip and fall. Combining something absorbant with this would probably get the mess cleaned up.";
+Constant TX_PS_74 = "This large puzzle of water probably formed from the water pouring out from the sink. If you don't clean this up then when your sister comes home she could slip and fall. Combining something absorbant with this would probably get the mess cleaned up.";
 Constant TX_PS_95 = "UNDO the last command";
 Constant TX_PS_2 = "WakeyWakey";
 Constant TX_PS_33 = "Yourself";
@@ -48362,10 +48379,11 @@ Constant TX_PS_36 = "dresser";
 Constant TX_PS_25 = "east";
 Constant TX_PS_83 = "easy bake oven";
 Constant TX_PS_60 = "file cabinet";
-Constant TX_PS_78 = "flower door";
+Constant TX_PS_79 = "flower door";
+Constant TX_PS_68 = "freezer";
 Constant TX_PS_29 = "inside";
 Constant TX_PS_62 = "key";
-Constant TX_PS_70 = "kitchenware drawer";
+Constant TX_PS_69 = "kitchenware drawer";
 Constant TX_PS_7 = "men";
 Constant TX_PS_42 = "mirror";
 Constant TX_PS_18 = "north";
@@ -48376,12 +48394,11 @@ Constant TX_PS_6 = "people";
 Constant TX_PS_46 = "pills";
 Constant TX_PS_85 = "pink bed";
 Constant TX_PS_13 = "player's holdalls";
-Constant TX_PS_74 = "puddle";
-Constant TX_PS_68 = "refrigerator";
+Constant TX_PS_73 = "puddle";
+Constant TX_PS_75 = "refrigerator";
 Constant TX_PS_16 = "regions";
-Constant TX_PS_80 = "sally's room";
 Constant TX_PS_93 = "see some suggestions for AMUSING things to do";
-Constant TX_PS_72 = "sink";
+Constant TX_PS_71 = "sink";
 Constant TX_PS_38 = "skylight";
 Constant TX_PS_22 = "south";
 Constant TX_PS_23 = "southeast";
@@ -55785,76 +55802,82 @@ Array BC_244 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_245 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_246 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_247 --> PACKED_TEXT_STORAGE TX_PS_68;
-Array BC_248 --> PACKED_TEXT_STORAGE TX_PS_69;
+Array BC_248 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_249 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_250 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_251 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_252 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_253 --> PACKED_TEXT_STORAGE TX_PS_70;
-Array BC_254 --> PACKED_TEXT_STORAGE TX_PS_71;
+Array BC_253 --> PACKED_TEXT_STORAGE TX_PS_69;
+Array BC_254 --> PACKED_TEXT_STORAGE TX_PS_70;
 Array BC_255 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_256 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_257 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_258 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_259 --> PACKED_TEXT_STORAGE TX_PS_72;
-Array BC_260 --> PACKED_TEXT_STORAGE TX_PS_73;
+Array BC_259 --> PACKED_TEXT_STORAGE TX_PS_71;
+Array BC_260 --> PACKED_TEXT_STORAGE TX_PS_72;
 Array BC_261 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_262 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_263 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_264 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_265 --> PACKED_TEXT_STORAGE TX_PS_74;
-Array BC_266 --> PACKED_TEXT_STORAGE TX_PS_75;
+Array BC_265 --> PACKED_TEXT_STORAGE TX_PS_73;
+Array BC_266 --> PACKED_TEXT_STORAGE TX_PS_74;
 Array BC_267 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_268 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_269 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_270 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_271 --> PACKED_TEXT_STORAGE TX_PS_76;
-Array BC_272 --> PACKED_TEXT_STORAGE TX_PS_77;
-Array BC_273 --> PACKED_TEXT_STORAGE TX_PS_76;
+Array BC_271 --> PACKED_TEXT_STORAGE TX_PS_75;
+Array BC_272 --> PACKED_TEXT_STORAGE TX_PS_76;
+Array BC_273 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_274 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_275 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_276 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_277 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_277 --> PACKED_TEXT_STORAGE TX_PS_77;
 Array BC_278 --> PACKED_TEXT_STORAGE TX_PS_78;
-Array BC_279 --> PACKED_TEXT_STORAGE TX_PS_79;
+Array BC_279 --> PACKED_TEXT_STORAGE TX_PS_77;
 Array BC_280 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_281 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_282 --> PACKED_TEXT_STORAGE TX_PS_10;
+Array BC_282 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_283 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_284 --> PACKED_TEXT_STORAGE TX_PS_80;
-Array BC_285 --> PACKED_TEXT_STORAGE TX_PS_81;
-Array BC_286 --> PACKED_TEXT_STORAGE TX_PS_82;
+Array BC_284 --> PACKED_TEXT_STORAGE TX_PS_79;
+Array BC_285 --> PACKED_TEXT_STORAGE TX_PS_80;
+Array BC_286 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_287 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_288 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_288 --> PACKED_TEXT_STORAGE TX_PS_10;
 Array BC_289 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_290 --> PACKED_TEXT_STORAGE TX_PS_83;
-Array BC_291 --> PACKED_TEXT_STORAGE TX_PS_84;
-Array BC_292 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_290 --> PACKED_TEXT_STORAGE TX_PS_81;
+Array BC_291 --> PACKED_TEXT_STORAGE TX_PS_82;
+Array BC_292 --> PACKED_TEXT_STORAGE TX_PS_81;
 Array BC_293 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_294 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_295 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_296 --> PACKED_TEXT_STORAGE TX_PS_85;
-Array BC_297 --> PACKED_TEXT_STORAGE TX_PS_86;
+Array BC_296 --> PACKED_TEXT_STORAGE TX_PS_83;
+Array BC_297 --> PACKED_TEXT_STORAGE TX_PS_84;
 Array BC_298 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_299 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_300 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_301 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_302 --> PACKED_TEXT_STORAGE TX_PS_87;
-Array BC_303 --> PACKED_TEXT_STORAGE TX_PS_88;
+Array BC_302 --> PACKED_TEXT_STORAGE TX_PS_85;
+Array BC_303 --> PACKED_TEXT_STORAGE TX_PS_86;
 Array BC_304 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_305 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_306 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_307 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_308 --> PACKED_TEXT_STORAGE TX_PS_89;
-Array BC_309 --> PACKED_TEXT_STORAGE TX_PS_4;
-Array BC_310 --> PACKED_TEXT_STORAGE TX_PS_3;
-Array BC_311 --> PACKED_TEXT_STORAGE TX_PS_90;
+Array BC_308 --> PACKED_TEXT_STORAGE TX_PS_87;
+Array BC_309 --> PACKED_TEXT_STORAGE TX_PS_88;
+Array BC_310 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_311 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_312 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_313 --> PACKED_TEXT_STORAGE TX_PS_91;
-Array BC_314 --> PACKED_TEXT_STORAGE TX_PS_92;
-Array BC_315 --> PACKED_TEXT_STORAGE TX_PS_93;
-Array BC_316 --> PACKED_TEXT_STORAGE TX_PS_94;
-Array BC_317 --> PACKED_TEXT_STORAGE TX_PS_95;
+Array BC_313 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_314 --> PACKED_TEXT_STORAGE TX_PS_89;
+Array BC_315 --> PACKED_TEXT_STORAGE TX_PS_4;
+Array BC_316 --> PACKED_TEXT_STORAGE TX_PS_3;
+Array BC_317 --> PACKED_TEXT_STORAGE TX_PS_90;
+Array BC_318 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_319 --> PACKED_TEXT_STORAGE TX_PS_91;
+Array BC_320 --> PACKED_TEXT_STORAGE TX_PS_92;
+Array BC_321 --> PACKED_TEXT_STORAGE TX_PS_93;
+Array BC_322 --> PACKED_TEXT_STORAGE TX_PS_94;
+Array BC_323 --> PACKED_TEXT_STORAGE TX_PS_95;
 
 
 
